@@ -97,15 +97,21 @@ def execute(root, config, checks_only=False):
     # Fail on invalid declared baselines before paying for a search.
     for problem in problems.values():
         baselines(problem)
+    def init_key(problem, seed):
+        default_w = round(config.hole_width * config.grid_n)
+        if problem.width == default_w:
+            return f"N{problem.case.hole_count}_{seed}"
+        return f"N{problem.case.hole_count}_W{problem.width}_{seed}"
+
     initial_path = root/"initial_layouts.json"
     if initial_path.exists():
         initial_data = json.loads(initial_path.read_text())
     else:
         initial_data = {}
-        for count in sorted({c.hole_count for c in config.cases}):
-            compatible = [p for p in problems.values() if p.case.hole_count == count]
+        for count, width in sorted({(p.case.hole_count, p.width) for p in problems.values()}):
+            compatible = [p for p in problems.values() if (p.case.hole_count, p.width) == (count, width)]
             for seed in config.seeds:
-                rng = np.random.default_rng(np.random.SeedSequence([seed,count,3]))
+                rng = np.random.default_rng(np.random.SeedSequence([seed,count,width,3]))
                 for _ in range(1000):
                     holes = compatible[0].random_layout(rng)
                     try:
@@ -113,7 +119,7 @@ def execute(root, config, checks_only=False):
                             problem.geometry(holes)
                     except ValueError:
                         continue
-                    initial_data[f"N{count}_{seed}"] = encode(holes)
+                    initial_data[init_key(compatible[0], seed)] = encode(holes)
                     break
                 else:
                     raise ValueError("Could not construct a shared feasible initial layout")
@@ -122,7 +128,7 @@ def execute(root, config, checks_only=False):
     for case in config.cases:
         problem = problems[case.name]
         for seed in config.seeds:
-            initial = decode(initial_data[f"N{case.hole_count}_{seed}"])
+            initial = decode(initial_data[init_key(problem, seed)])
             for method in config.methods:
                 task = root/"tasks"/case.name/f"{method}_{seed}"
                 task.mkdir(parents=True,exist_ok=True)
@@ -150,7 +156,7 @@ def execute(root, config, checks_only=False):
     for case in config.cases:
         problem = problems[case.name]
         summaries = [s for s in tasks if s["case"] == case.name]
-        initial = {seed:decode(initial_data[f"N{case.hole_count}_{seed}"]) for seed in config.seeds}
+        initial = {seed:decode(initial_data[init_key(problem, seed)]) for seed in config.seeds}
         print(f"{case.name}: refining every endpoint, initial layout and named baseline",flush=True)
         assessments.extend(validator.validate_case(problem,summaries,initial))
         fine = [r for r in validator.rows if r["case"] == case.name
@@ -170,9 +176,9 @@ def execute(root, config, checks_only=False):
     # whether re-optimization helps, instead of comparing incomparable raw Qs.
     transfers = []
     for source in tasks:
-        source_case = problems[source["case"]].case
+        source_prob = problems[source["case"]]
         for target in problems.values():
-            if target.case.hole_count != source_case.hole_count:
+            if (target.case.hole_count, target.width) != (source_prob.case.hole_count, source_prob.width):
                 continue
             holes = decode(source["best_holes"])
             try:

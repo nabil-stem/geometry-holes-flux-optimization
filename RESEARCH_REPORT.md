@@ -6,6 +6,7 @@
 * [Study I — Pilot Source-Sensitivity Report (`PILOT_RESULTS.md`)](PILOT_RESULTS.md)
 * [Study II — Equal-Budget Benchmark Demo (`results/research_20261022T081921279345Z/report.md`)](results/research_20261022T081921279345Z/report.md)
 * [Study III — Full $2 \times 3$ Regime & Transfer Study (`results/research_20261022T082141365976Z/report.md`)](results/research_20261022T082141365976Z/report.md)
+* [Study IV — Conducting Neck, Constant-Perimeter Subdivision, $N$-Sweep & Independent FEM (`results/research_20261022T132031384663Z/report.md`)](results/research_20261022T132031384663Z/report.md)
 
 ---
 
@@ -149,3 +150,71 @@ Each row below takes the winning 6-hole geometry optimized for **Origin Regime**
 
 ![Neck Bi=10.0 Search](results/research_20261022T082141365976Z/figures/search_neck_B10_N6.png)
 ![Neck Bi=10.0 Fields](results/research_20261022T082141365976Z/figures/fields_neck_B10_N6.png)
+
+---
+
+## 5. Study IV: Conducting-Duct Neck, Constant-Perimeter Subdivision, $N$-Sweep & Independent P1 FEM (`n = 400` + FEM)
+
+* **Saved Evidence:** [`results/research_20261022T132031384663Z/report.md`](results/research_20261022T132031384663Z/report.md) · [`method_comparison.csv`](results/research_20261022T132031384663Z/method_comparison.csv) · [`fem_validation.csv`](results/research_20261022T132031384663Z/fem_validation.csv) · [`mechanisms.json`](results/research_20261022T132031384663Z/mechanisms.json)
+* **Scale:** 9 cases $\times$ 3 seeds $\times$ 3 optimizers $\times$ 65 solves = **5,265 search solves** + **426 multi-grid FVM solves** ($n=100, 200, 400$) + **252 independent conforming P1 FEM solves** (`triangle`, `max_area = 0.0005, 0.0002`) + **27 mechanism diagnostic solves**.
+
+### 5.1 Conducting (Neumann) Neck vs. Reactive (Robin) Neck (`N = 6`)
+
+In Study III, the narrow inlet neck's own walls were Robin-reactive (`neck_*`), absorbing $92.4\%$ of the flux at $\mathrm{Bi}=10$ before molecules could enter the chamber. Here (`cneck_*`), the inlet neck walls are made **reflecting/non-absorbing ($\partial_n u = 0$, modeling a conducting airway/duct)** while the main chamber and 6 islands remain Robin-reactive ($P_{\text{Robin}} = 4.66$, identical to `direct` width $0.10$):
+
+| $\mathrm{Bi}$ | Reactive Neck (`neck_*`) `greedy` Median Gain | Conducting Neck (`cneck_*`) `greedy` Median Gain | Reactive Neck Inner-Island Share of $Q$ | Conducting Neck Inner-Island Share of $Q$ | Conducting Neck Best $Q$ ($n=400$) |
+|---:|---:|---:|---:|---:|---:|
+| **$0.1$** | $+0.686\%$ | **$+1.649\%$** ($[+1.25\%, +1.67\%]$) | $36.9\%$ | **$42.1\%$** | $0.2068747$ |
+| **$1.0$** | $+0.325\%$ | **$+1.164\%$** ($[+1.15\%, +1.30\%]$) | $28.7\%$ | **$48.8\%$** | $0.3545258$ |
+| **$10.0$** | $+0.089\%$ | **$+2.565\%$** ($[+2.50\%, +2.68\%]$) | $7.6\%$ | **$66.3\%$** | $0.4250992$ |
+
+* **Physical takeaway:** Passivating the inlet neck (`conducting_neck`) restores inner-island uptake at $\mathrm{Bi}=10$ from **$7.6\%$ up to $66.3\%$** of total flux and increases placement optimization gains nearly **$30\times$** (from $0.089\%$ to **$2.565\%$**). The remaining gap between `cneck_B10_N6` ($2.57\%$) and `direct_B10_N6` ($20.20\%$) is due to the pure diffusive series resistance ($R_{\text{duct}} \approx L_{\text{duct}}/w_{\text{duct}} = 1.8$) of the narrow conducting duct.
+
+![Conducting Neck Bi=10 Fields](results/research_20261022T132031384663Z/figures/fields_cneck_B10_N6.png)
+
+---
+
+### 5.2 Constant-Perimeter Subdivision vs. Fixed-Square-Size $N$-Sweep (`Bi = 1.0`, Direct Width `0.30`)
+
+We compare two distinct resource policies across $N$:
+1. **Constant Total Membrane Perimeter ($P_{\text{Robin}} = 4.46$, added island perimeter $4 N s = 1.92$ held strictly constant):** compares few large islands ($N=3, s=0.16$) against more smaller islands ($N=4, s=0.12$; $N=6, s=0.08$; $N=8, s=0.06$).
+2. **Fixed Island Square Size ($s = 0.08$, where each added island adds $+0.32$ perimeter and removes $0.0064$ air area):** sweeps $N \in \{2, 4, 6, 8\}$.
+
+| Resource Policy | Case | $N$ | Island Side $s$ | Air Area $A_{\text{air}}$ | Total Perimeter $P_{\text{Robin}}$ | `greedy` Median Gain ($n=400$) | Obstruction $\Delta Q_{\text{obstruction}}$ | Best Validated $Q$ ($n=400$) |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| **Constant Perimeter ($4Ns = 1.92$)** | `constP_B1_N3_s016` | $3$ | $0.16$ | $0.4272$ | **$4.46$** | $+2.357\%$ | $-0.168099$ | $1.2902423$ |
+| **Constant Perimeter ($4Ns = 1.92$)** | `constP_B1_N4_s012` | $4$ | $0.12$ | $0.4464$ | **$4.46$** | $+5.413\%$ | $-0.180454$ | $1.3651684$ |
+| **Constant Perimeter ($4Ns = 1.92$)** | `direct_B1_N6` (Study II) | $6$ | $0.08$ | $0.4656$ | **$4.46$** | $+4.898\%$ | $-0.144580$ | $1.4453678$ |
+| **Constant Perimeter ($4Ns = 1.92$)** | `constP_B1_N8_s006` | $8$ | $0.06$ | $0.4752$ | **$4.46$** | **$+9.917\%$** | **$-0.101617$** | **$1.4897968$** |
+| **Fixed Square Size ($s = 0.08$)** | `fixedS_B1_N2_s008` | $2$ | $0.08$ | $0.4912$ | $3.18$ | $+8.506\%$ | $-0.100598$ | $1.2839753$ |
+| **Fixed Square Size ($s = 0.08$)** | `fixedS_B1_N4_s008` | $4$ | $0.08$ | $0.4784$ | $3.82$ | **$+10.802\%$** | $-0.141789$ | $1.3861472$ |
+| **Fixed Square Size ($s = 0.08$)** | `direct_B1_N6` (Study II) | $6$ | $0.08$ | $0.4656$ | $4.46$ | $+4.898\%$ | $-0.144580$ | $1.4453678$ |
+| **Fixed Square Size ($s = 0.08$)** | `fixedS_B1_N8_s008` | $8$ | $0.08$ | $0.4528$ | $5.10$ | $+4.817\%$ | $-0.149116$ | $1.4697841$ |
+
+* **Key discovery 1 — Subdividing fixed membrane perimeter into smaller islands boosts uptake by $+15.5\%$:**
+  * Holding total reactive perimeter fixed at $P_{\text{Robin}} = 4.46$, splitting 3 large islands ($s=0.16, Q=1.2902$) into 8 small islands ($s=0.06, Q=1.4898$) increases total uptake by **$+15.47\%$**, because excluded blockage area shrinks as $N s^2 \propto 1/N$ (halving obstruction loss $\Delta Q_{\text{obstruction}}$ from $-0.1681$ to $-0.1016$) while allowing a finer multi-tiered sieve around the inlet plume.
+* **Key discovery 2 — Less membrane can absorb more flux when crowding is reduced:**
+  * Compare `constP_B1_N8_s006` ($N=8, s=0.06, P_{\text{Robin}} = 4.46, Q = \mathbf{1.4898}$) against `fixedS_B1_N8_s008` ($N=8, s=0.08, P_{\text{Robin}} = 5.10, Q = \mathbf{1.4698}$). Despite having **$12.5\%$ less total reactive perimeter** ($4.46$ vs. $5.10$), the eight $s=0.06$ islands achieve **higher total flux** than the eight $s=0.08$ islands because smaller islands pack closer to the high-concentration inlet arc without choking off the flow channels between islands.
+
+![Constant Perimeter N=3 s=0.16 Fields](results/research_20261022T132031384663Z/figures/fields_constP_B1_N3_s016.png)
+![Constant Perimeter N=8 s=0.06 Fields](results/research_20261022T132031384663Z/figures/fields_constP_B1_N8_s006.png)
+![Fixed Size N=4 s=0.08 Fields](results/research_20261022T132031384663Z/figures/fields_fixedS_B1_N4_s008.png)
+
+---
+
+### 5.3 Independent Conforming P1 FEM Cross-Check (`fem_validation.csv`)
+
+Every unique candidate across all 9 cases in Study IV was meshed with `triangle` (`max_area = 0.0005` and `0.0002`, $\sim 2,045\text{--}2,299$ vertices) and solved with an independent conforming P1 finite-element assembly:
+
+| Case | Finest FVM $Q$ ($n=400$) | Independent P1 FEM $Q$ (`max_area = 0.0002`) | FEM vs. $n=400$ FVM Difference | FEM Mesh Vertices |
+|---|---:|---:|---:|---:|
+| **`cneck_B01_N6`** | $0.2068747$ | $0.2079100$ | $+0.500\%$ | $2,295$ |
+| **`cneck_B1_N6`** | $0.3545258$ | $0.3579786$ | $+0.974\%$ | $2,292$ |
+| **`cneck_B10_N6`** | $0.4250992$ | $0.4305853$ | $+1.291\%$ | $2,299$ |
+| **`constP_B1_N3_s016`** | $1.2902423$ | $1.3180751$ | $+2.157\%$ | $2,045$ |
+| **`constP_B1_N4_s012`** | $1.3651684$ | $1.3989082$ | $+2.471\%$ | $2,114$ |
+| **`constP_B1_N8_s006`** | $1.4897968$ | $1.5308566$ | $+2.756\%$ | $2,234$ |
+| **`fixedS_B1_N2_s008`** | $1.2839753$ | $1.3154822$ | $+2.454\%$ | $2,183$ |
+| **`fixedS_B1_N4_s008`** | $1.3861472$ | $1.4288777$ | $+3.083\%$ | $2,198$ |
+| **`fixedS_B1_N8_s008`** | $1.4697841$ | $1.5126056$ | $+2.913\%$ | $2,201$ |
+

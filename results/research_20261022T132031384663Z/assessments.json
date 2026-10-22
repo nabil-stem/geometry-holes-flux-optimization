@@ -1,0 +1,3494 @@
+[
+  {
+    "case": "cneck_B01_N6",
+    "method": "random",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 0.20593238789682908,
+    "fine_initial_Q": 0.20343620021409303,
+    "fine_gain_percent": 1.2270125376452556,
+    "paired_gap_change": 1.644304620074255e-06,
+    "paired_gap_change_fraction": 0.0006587263575757853,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B01_N6_c6e9b9ee448bda47.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 27,
+        "col": 58,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 34,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 56,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 38,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B01_N6",
+    "method": "greedy",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 0.20679002233906052,
+    "fine_initial_Q": 0.20343620021409303,
+    "fine_gain_percent": 1.6485866927508308,
+    "paired_gap_change": 2.555426927619564e-06,
+    "paired_gap_change_fraction": 0.0007619446805469259,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B01_N6_4cdf22929edcd3fe.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 25,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 33,
+        "col": 58,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 38,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B01_N6",
+    "method": "anneal",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 0.20614074886126937,
+    "fine_initial_Q": 0.20343620021409303,
+    "fine_gain_percent": 1.3294333281540505,
+    "paired_gap_change": 6.936804308937949e-06,
+    "paired_gap_change_fraction": 0.002564865792368074,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B01_N6_b52b2de6bd42464f.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 27,
+        "col": 58,
+        "width": 8
+      },
+      {
+        "row": 35,
+        "col": 46,
+        "width": 8
+      },
+      {
+        "row": 61,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 61,
+        "col": 52,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 40,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B01_N6",
+    "method": "random",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 0.20583024396952915,
+    "fine_initial_Q": 0.20402124833687427,
+    "fine_gain_percent": 0.8866702107752644,
+    "paired_gap_change": 1.4502443193120662e-05,
+    "paired_gap_change_fraction": 0.008016848095888925,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": false,
+    "field_file": "fields/cneck_B01_N6_c7a4ba8b313376b3.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 44,
+        "width": 8
+      },
+      {
+        "row": 23,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 61,
+        "col": 70,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 56,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B01_N6",
+    "method": "greedy",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 0.2065660518818243,
+    "fine_initial_Q": 0.20402124833687427,
+    "fine_gain_percent": 1.247322798823447,
+    "paired_gap_change": 5.226797138879746e-06,
+    "paired_gap_change_fraction": 0.0020539098781325992,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B01_N6_a2c7f174f41b6f8f.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 44,
+        "width": 8
+      },
+      {
+        "row": 23,
+        "col": 30,
+        "width": 8
+      },
+      {
+        "row": 39,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 44,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B01_N6",
+    "method": "anneal",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 0.2055533355638307,
+    "fine_initial_Q": 0.20402124833687427,
+    "fine_gain_percent": 0.7509449331604356,
+    "paired_gap_change": 1.264212548771071e-05,
+    "paired_gap_change_fraction": 0.00825157031876367,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": false,
+    "field_file": "fields/cneck_B01_N6_5bc7636377a08b17.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 25,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 29,
+        "col": 64,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 68,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 46,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 34,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B01_N6",
+    "method": "random",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 0.20622200734344803,
+    "fine_initial_Q": 0.20348666934087556,
+    "fine_gain_percent": 1.3442344952780738,
+    "paired_gap_change": 1.1849005837116788e-05,
+    "paired_gap_change_fraction": 0.004331825107527216,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B01_N6_76d0648e998ea350.npz",
+    "holes": [
+      {
+        "row": 25,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 29,
+        "col": 46,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 46,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 70,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B01_N6",
+    "method": "greedy",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 0.2068746981155304,
+    "fine_initial_Q": 0.20348666934087556,
+    "fine_gain_percent": 1.6649880729922906,
+    "paired_gap_change": 9.201525912383435e-06,
+    "paired_gap_change_fraction": 0.0027158936728100503,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B01_N6_f61d464f79cc9bef.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 27,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 44,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 36,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B01_N6",
+    "method": "anneal",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 0.20616936077437892,
+    "fine_initial_Q": 0.20348666934087556,
+    "fine_gain_percent": 1.3183622505557713,
+    "paired_gap_change": 1.3836896023466938e-05,
+    "paired_gap_change_fraction": 0.005157841058670384,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B01_N6_ecd33655bc6d55a5.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 30,
+        "width": 8
+      },
+      {
+        "row": 23,
+        "col": 56,
+        "width": 8
+      },
+      {
+        "row": 25,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 34,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 56,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 28,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B1_N6",
+    "method": "random",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 0.3527942746760915,
+    "fine_initial_Q": 0.3494559872551134,
+    "fine_gain_percent": 0.9552812207338279,
+    "paired_gap_change": 6.848621118438203e-06,
+    "paired_gap_change_fraction": 0.0020515372868737686,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": false,
+    "field_file": "fields/cneck_B1_N6_c6e9b9ee448bda47.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 27,
+        "col": 58,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 34,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 56,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 38,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B1_N6",
+    "method": "greedy",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 0.35399618394968135,
+    "fine_initial_Q": 0.3494559872551134,
+    "fine_gain_percent": 1.299218459592022,
+    "paired_gap_change": 4.2974085368352455e-05,
+    "paired_gap_change_fraction": 0.009465247490217352,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B1_N6_308352be6d60156f.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 33,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 64,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 63,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B1_N6",
+    "method": "anneal",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 0.3534248574328339,
+    "fine_initial_Q": 0.3494559872551134,
+    "fine_gain_percent": 1.135728195385921,
+    "paired_gap_change": 3.699501295828522e-05,
+    "paired_gap_change_fraction": 0.00932129581006677,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B1_N6_1214973ec8db2517.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 35,
+        "col": 54,
+        "width": 8
+      },
+      {
+        "row": 35,
+        "col": 72,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 24,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B1_N6",
+    "method": "random",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 0.35280112704896827,
+    "fine_initial_Q": 0.35050753319128614,
+    "fine_gain_percent": 0.6543636414314769,
+    "paired_gap_change": 4.212045227036665e-05,
+    "paired_gap_change_fraction": 0.018364390072500854,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": false,
+    "field_file": "fields/cneck_B1_N6_d507c5842d1ec341.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 33,
+        "col": 58,
+        "width": 8
+      },
+      {
+        "row": 39,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 72,
+        "width": 8
+      },
+      {
+        "row": 63,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B1_N6",
+    "method": "greedy",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 0.35452580359339547,
+    "fine_initial_Q": 0.35050753319128614,
+    "fine_gain_percent": 1.146414847499555,
+    "paired_gap_change": 1.210771795029375e-05,
+    "paired_gap_change_fraction": 0.0030131665464668504,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B1_N6_34bf4fe4940b1a3b.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 23,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 35,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 63,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 46,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B1_N6",
+    "method": "anneal",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 0.35263345188351725,
+    "fine_initial_Q": 0.35050753319128614,
+    "fine_gain_percent": 0.6065258206792601,
+    "paired_gap_change": 6.822377268234092e-06,
+    "paired_gap_change_fraction": 0.0032091430839596884,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": false,
+    "field_file": "fields/cneck_B1_N6_b916fac56467a906.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 32,
+        "width": 8
+      },
+      {
+        "row": 35,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 39,
+        "col": 62,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 76,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 30,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B1_N6",
+    "method": "random",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 0.35299241311804846,
+    "fine_initial_Q": 0.3502411737494283,
+    "fine_gain_percent": 0.7855271095535077,
+    "paired_gap_change": 2.1366318691595776e-05,
+    "paired_gap_change_fraction": 0.007766070424585332,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": false,
+    "field_file": "fields/cneck_B1_N6_76d0648e998ea350.npz",
+    "holes": [
+      {
+        "row": 25,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 29,
+        "col": 46,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 46,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 70,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B1_N6",
+    "method": "greedy",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 0.35431859238521446,
+    "fine_initial_Q": 0.3502411737494283,
+    "fine_gain_percent": 1.164174557815767,
+    "paired_gap_change": 5.865793538117892e-06,
+    "paired_gap_change_fraction": 0.0014386046815590078,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B1_N6_adf2156fe0ff3a3d.npz",
+    "holes": [
+      {
+        "row": 31,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 33,
+        "col": 30,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 32,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B1_N6",
+    "method": "anneal",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 0.3536657395830753,
+    "fine_initial_Q": 0.3502411737494283,
+    "fine_gain_percent": 0.9777736286645133,
+    "paired_gap_change": 2.5782383487604754e-06,
+    "paired_gap_change_fraction": 0.0007528657570045289,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": false,
+    "field_file": "fields/cneck_B1_N6_7edb59b0bcf0ef82.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 44,
+        "width": 8
+      },
+      {
+        "row": 35,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 34,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 60,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 28,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B10_N6",
+    "method": "random",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 0.4238579587456954,
+    "fine_initial_Q": 0.41271901976614633,
+    "fine_gain_percent": 2.698915835248039,
+    "paired_gap_change": 7.334090983152075e-05,
+    "paired_gap_change_fraction": 0.006584191722943612,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B10_N6_e3d77e1dd182add5.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 60,
+        "width": 8
+      },
+      {
+        "row": 31,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 22,
+        "width": 8
+      },
+      {
+        "row": 63,
+        "col": 68,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 34,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B10_N6",
+    "method": "greedy",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 0.4237811088507888,
+    "fine_initial_Q": 0.41271901976614633,
+    "fine_gain_percent": 2.6802954443220006,
+    "paired_gap_change": 7.35099669416095e-05,
+    "paired_gap_change_fraction": 0.00664521559889295,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B10_N6_fb3da2480ea53882.npz",
+    "holes": [
+      {
+        "row": 29,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 31,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 39,
+        "col": 50,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 22,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 61,
+        "col": 28,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B10_N6",
+    "method": "anneal",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 0.4226032769372292,
+    "fine_initial_Q": 0.41271901976614633,
+    "fine_gain_percent": 2.3949119613347225,
+    "paired_gap_change": 2.251635401917529e-05,
+    "paired_gap_change_fraction": 0.0022780016372953692,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B10_N6_07cdd7a4df62c812.npz",
+    "holes": [
+      {
+        "row": 35,
+        "col": 60,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 22,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 56,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 30,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 70,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 60,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B10_N6",
+    "method": "random",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 0.423695761559025,
+    "fine_initial_Q": 0.41320705432441207,
+    "fine_gain_percent": 2.5383659656444735,
+    "paired_gap_change": 2.2870672849062412e-05,
+    "paired_gap_change_fraction": 0.0021805044546947382,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B10_N6_674d42a81add9640.npz",
+    "holes": [
+      {
+        "row": 33,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 35,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 22,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 50,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 68,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B10_N6",
+    "method": "greedy",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 0.4238057097633854,
+    "fine_initial_Q": 0.41320705432441207,
+    "fine_gain_percent": 2.564974466929648,
+    "paired_gap_change": 2.338476150870461e-05,
+    "paired_gap_change_fraction": 0.002206389446600396,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B10_N6_dae1b6c539442220.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 23,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 35,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 22,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 56,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 34,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B10_N6",
+    "method": "anneal",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 0.42423123889609793,
+    "fine_initial_Q": 0.41320705432441207,
+    "fine_gain_percent": 2.66795652598677,
+    "paired_gap_change": 0.00012652763034315395,
+    "paired_gap_change_fraction": 0.011477277935650971,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B10_N6_aa72d6ddccc6cfab.npz",
+    "holes": [
+      {
+        "row": 31,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 39,
+        "col": 50,
+        "width": 8
+      },
+      {
+        "row": 39,
+        "col": 62,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 74,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 22,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 24,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B10_N6",
+    "method": "random",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 0.4235363975092324,
+    "fine_initial_Q": 0.4147469966792583,
+    "fine_gain_percent": 2.119219885942014,
+    "paired_gap_change": 7.162558494627769e-05,
+    "paired_gap_change_fraction": 0.008149086192771665,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B10_N6_c0aabaecd46036c0.npz",
+    "holes": [
+      {
+        "row": 29,
+        "col": 52,
+        "width": 8
+      },
+      {
+        "row": 31,
+        "col": 32,
+        "width": 8
+      },
+      {
+        "row": 31,
+        "col": 64,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 22,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 60,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 30,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B10_N6",
+    "method": "greedy",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 0.425099184443574,
+    "fine_initial_Q": 0.4147469966792583,
+    "fine_gain_percent": 2.496024768642613,
+    "paired_gap_change": 2.2084191033000522e-05,
+    "paired_gap_change_fraction": 0.002133287333632552,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B10_N6_8bd54c5e13ab1c8b.npz",
+    "holes": [
+      {
+        "row": 25,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 22,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 32,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "cneck_B10_N6",
+    "method": "anneal",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 0.42394075522068153,
+    "fine_initial_Q": 0.4147469966792583,
+    "fine_gain_percent": 2.216714916571938,
+    "paired_gap_change": 0.00012098047312081306,
+    "paired_gap_change_fraction": 0.013158978732770235,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/cneck_B10_N6_3d1c3a84cae7118e.npz",
+    "holes": [
+      {
+        "row": 25,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 35,
+        "col": 66,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 22,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 61,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 54,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N3_s016",
+    "method": "random",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.2792513356253208,
+    "fine_initial_Q": 1.2429190352863024,
+    "fine_gain_percent": 2.9231429648713503,
+    "paired_gap_change": 0.0009418285742925914,
+    "paired_gap_change_fraction": 0.02592262437292288,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N3_s016_7b5f5a35b48676a0.npz",
+    "holes": [
+      {
+        "row": 37,
+        "col": 46,
+        "width": 16
+      },
+      {
+        "row": 39,
+        "col": 24,
+        "width": 16
+      },
+      {
+        "row": 59,
+        "col": 48,
+        "width": 16
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N3_s016",
+    "method": "greedy",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.2827948884064564,
+    "fine_initial_Q": 1.2429190352863024,
+    "fine_gain_percent": 3.2082422095151664,
+    "paired_gap_change": 0.0009234076719908391,
+    "paired_gap_change_fraction": 0.02315706372998281,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N3_s016_f885801b72ec6117.npz",
+    "holes": [
+      {
+        "row": 33,
+        "col": 44,
+        "width": 16
+      },
+      {
+        "row": 43,
+        "col": 24,
+        "width": 16
+      },
+      {
+        "row": 57,
+        "col": 48,
+        "width": 16
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N3_s016",
+    "method": "anneal",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.2803300881354733,
+    "fine_initial_Q": 1.2429190352863024,
+    "fine_gain_percent": 3.00993482174432,
+    "paired_gap_change": 0.0009514223632605123,
+    "paired_gap_change_fraction": 0.025431584807204848,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N3_s016_bf27d7fbd454201e.npz",
+    "holes": [
+      {
+        "row": 29,
+        "col": 48,
+        "width": 16
+      },
+      {
+        "row": 41,
+        "col": 24,
+        "width": 16
+      },
+      {
+        "row": 59,
+        "col": 44,
+        "width": 16
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N3_s016",
+    "method": "random",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.2872627223945672,
+    "fine_initial_Q": 1.272849318290397,
+    "fine_gain_percent": 1.1323731644472534,
+    "paired_gap_change": 0.00016041976536373959,
+    "paired_gap_change_fraction": 0.011129901319933602,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N3_s016_a51fed01ed998c0a.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 16
+      },
+      {
+        "row": 61,
+        "col": 26,
+        "width": 16
+      },
+      {
+        "row": 63,
+        "col": 50,
+        "width": 16
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N3_s016",
+    "method": "greedy",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.2864997629908912,
+    "fine_initial_Q": 1.272849318290397,
+    "fine_gain_percent": 1.072432102083254,
+    "paired_gap_change": 0.00013975156678669443,
+    "paired_gap_change_fraction": 0.010237876483367271,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N3_s016_139c259220a95591.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 24,
+        "width": 16
+      },
+      {
+        "row": 47,
+        "col": 54,
+        "width": 16
+      },
+      {
+        "row": 63,
+        "col": 26,
+        "width": 16
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N3_s016",
+    "method": "anneal",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.2896253072051354,
+    "fine_initial_Q": 1.272849318290397,
+    "fine_gain_percent": 1.3179870290751072,
+    "paired_gap_change": 0.00017127457364218834,
+    "paired_gap_change_fraction": 0.010209506844137071,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N3_s016_108bca4cd0363a0f.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 28,
+        "width": 16
+      },
+      {
+        "row": 41,
+        "col": 54,
+        "width": 16
+      },
+      {
+        "row": 63,
+        "col": 26,
+        "width": 16
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N3_s016",
+    "method": "random",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.2777045761689512,
+    "fine_initial_Q": 1.2593222988273585,
+    "fine_gain_percent": 1.459696009409961,
+    "paired_gap_change": 0.0007729100503688358,
+    "paired_gap_change_fraction": 0.042046479661146725,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N3_s016_3b31621137e96b8d.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 28,
+        "width": 16
+      },
+      {
+        "row": 47,
+        "col": 56,
+        "width": 16
+      },
+      {
+        "row": 61,
+        "col": 34,
+        "width": 16
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N3_s016",
+    "method": "greedy",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.2890004157680481,
+    "fine_initial_Q": 1.2593222988273585,
+    "fine_gain_percent": 2.3566736623598983,
+    "paired_gap_change": 0.0006143231243056491,
+    "paired_gap_change_fraction": 0.02069953176386983,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N3_s016_b37e1f3921ad7765.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 16
+      },
+      {
+        "row": 51,
+        "col": 52,
+        "width": 16
+      },
+      {
+        "row": 61,
+        "col": 26,
+        "width": 16
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N3_s016",
+    "method": "anneal",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.2902423038060096,
+    "fine_initial_Q": 1.2593222988273585,
+    "fine_gain_percent": 2.4552892462432307,
+    "paired_gap_change": 0.0006476267398538571,
+    "paired_gap_change_fraction": 0.020945234009535726,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N3_s016_1014e057b165d41e.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 16
+      },
+      {
+        "row": 47,
+        "col": 54,
+        "width": 16
+      },
+      {
+        "row": 63,
+        "col": 26,
+        "width": 16
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N4_s012",
+    "method": "random",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.333465492795178,
+    "fine_initial_Q": 1.2830658580957297,
+    "fine_gain_percent": 3.9280629580658477,
+    "paired_gap_change": 0.0014635172961086074,
+    "paired_gap_change_fraction": 0.029038252059486274,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N4_s012_31729ce74eaf9b15.npz",
+    "holes": [
+      {
+        "row": 31,
+        "col": 32,
+        "width": 12
+      },
+      {
+        "row": 37,
+        "col": 54,
+        "width": 12
+      },
+      {
+        "row": 49,
+        "col": 24,
+        "width": 12
+      },
+      {
+        "row": 67,
+        "col": 36,
+        "width": 12
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N4_s012",
+    "method": "greedy",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.3411116003270744,
+    "fine_initial_Q": 1.2830658580957297,
+    "fine_gain_percent": 4.523987748960412,
+    "paired_gap_change": 0.0009576654837692988,
+    "paired_gap_change_fraction": 0.016498462194737152,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N4_s012_52ae5738263772d9.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 46,
+        "width": 12
+      },
+      {
+        "row": 25,
+        "col": 28,
+        "width": 12
+      },
+      {
+        "row": 49,
+        "col": 26,
+        "width": 12
+      },
+      {
+        "row": 53,
+        "col": 44,
+        "width": 12
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N4_s012",
+    "method": "anneal",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.3380087135895826,
+    "fine_initial_Q": 1.2830658580957297,
+    "fine_gain_percent": 4.282153963273294,
+    "paired_gap_change": 0.0010922438035620985,
+    "paired_gap_change_fraction": 0.019879633006775563,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N4_s012_25786a93e75faf13.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 62,
+        "width": 12
+      },
+      {
+        "row": 35,
+        "col": 46,
+        "width": 12
+      },
+      {
+        "row": 41,
+        "col": 24,
+        "width": 12
+      },
+      {
+        "row": 63,
+        "col": 30,
+        "width": 12
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N4_s012",
+    "method": "random",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.3651684463781977,
+    "fine_initial_Q": 1.2732817749080434,
+    "fine_gain_percent": 7.216522947309945,
+    "paired_gap_change": 0.001363887361772953,
+    "paired_gap_change_fraction": 0.014843146889001822,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N4_s012_7d1f95f12e949d8a.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 28,
+        "width": 12
+      },
+      {
+        "row": 41,
+        "col": 50,
+        "width": 12
+      },
+      {
+        "row": 43,
+        "col": 24,
+        "width": 12
+      },
+      {
+        "row": 65,
+        "col": 26,
+        "width": 12
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N4_s012",
+    "method": "greedy",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.3422099349014425,
+    "fine_initial_Q": 1.2732817749080434,
+    "fine_gain_percent": 5.413425476727407,
+    "paired_gap_change": 0.0009874046790510072,
+    "paired_gap_change_fraction": 0.01432512748266552,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N4_s012_ad3c79d33130f946.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 12
+      },
+      {
+        "row": 25,
+        "col": 46,
+        "width": 12
+      },
+      {
+        "row": 51,
+        "col": 26,
+        "width": 12
+      },
+      {
+        "row": 57,
+        "col": 44,
+        "width": 12
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N4_s012",
+    "method": "anneal",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.3494001078304227,
+    "fine_initial_Q": 1.2732817749080434,
+    "fine_gain_percent": 5.978121608461451,
+    "paired_gap_change": 0.0012852019734810316,
+    "paired_gap_change_fraction": 0.016884263279801453,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N4_s012_d82222125d95000d.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 28,
+        "width": 12
+      },
+      {
+        "row": 31,
+        "col": 54,
+        "width": 12
+      },
+      {
+        "row": 49,
+        "col": 24,
+        "width": 12
+      },
+      {
+        "row": 53,
+        "col": 42,
+        "width": 12
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N4_s012",
+    "method": "random",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.3414935290525096,
+    "fine_initial_Q": 1.276710073276752,
+    "fine_gain_percent": 5.074249599166003,
+    "paired_gap_change": 0.001123962937579659,
+    "paired_gap_change_fraction": 0.017349536608083402,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N4_s012_ea9c03c4e950d1b6.npz",
+    "holes": [
+      {
+        "row": 27,
+        "col": 32,
+        "width": 12
+      },
+      {
+        "row": 37,
+        "col": 54,
+        "width": 12
+      },
+      {
+        "row": 49,
+        "col": 24,
+        "width": 12
+      },
+      {
+        "row": 53,
+        "col": 42,
+        "width": 12
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N4_s012",
+    "method": "greedy",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.3631737612434711,
+    "fine_initial_Q": 1.276710073276752,
+    "fine_gain_percent": 6.772382373768293,
+    "paired_gap_change": 0.001147922887172026,
+    "paired_gap_change_fraction": 0.013276358135612664,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N4_s012_0a78a5b3d7d127fd.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 30,
+        "width": 12
+      },
+      {
+        "row": 45,
+        "col": 24,
+        "width": 12
+      },
+      {
+        "row": 49,
+        "col": 48,
+        "width": 12
+      },
+      {
+        "row": 65,
+        "col": 26,
+        "width": 12
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N4_s012",
+    "method": "anneal",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.3609698734022557,
+    "fine_initial_Q": 1.276710073276752,
+    "fine_gain_percent": 6.599759952488338,
+    "paired_gap_change": 0.0012389840380124806,
+    "paired_gap_change_fraction": 0.014704331557480937,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N4_s012_344a6c1650b970ca.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 28,
+        "width": 12
+      },
+      {
+        "row": 37,
+        "col": 46,
+        "width": 12
+      },
+      {
+        "row": 47,
+        "col": 24,
+        "width": 12
+      },
+      {
+        "row": 65,
+        "col": 28,
+        "width": 12
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N8_s006",
+    "method": "random",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.439116553876504,
+    "fine_initial_Q": 1.351930571769878,
+    "fine_gain_percent": 6.448998486104696,
+    "paired_gap_change": 0.0007652985783284105,
+    "paired_gap_change_fraction": 0.008777770919555292,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N8_s006_97ced30f1568b0c8.npz",
+    "holes": [
+      {
+        "row": 31,
+        "col": 24,
+        "width": 6
+      },
+      {
+        "row": 33,
+        "col": 44,
+        "width": 6
+      },
+      {
+        "row": 39,
+        "col": 80,
+        "width": 6
+      },
+      {
+        "row": 47,
+        "col": 36,
+        "width": 6
+      },
+      {
+        "row": 51,
+        "col": 22,
+        "width": 6
+      },
+      {
+        "row": 65,
+        "col": 70,
+        "width": 6
+      },
+      {
+        "row": 67,
+        "col": 34,
+        "width": 6
+      },
+      {
+        "row": 71,
+        "col": 50,
+        "width": 6
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N8_s006",
+    "method": "greedy",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.4860053794620351,
+    "fine_initial_Q": 1.351930571769878,
+    "fine_gain_percent": 9.917284991686625,
+    "paired_gap_change": 0.0017954881944024503,
+    "paired_gap_change_fraction": 0.013391689500125823,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N8_s006_01899819a576ff63.npz",
+    "holes": [
+      {
+        "row": 27,
+        "col": 24,
+        "width": 6
+      },
+      {
+        "row": 37,
+        "col": 46,
+        "width": 6
+      },
+      {
+        "row": 39,
+        "col": 32,
+        "width": 6
+      },
+      {
+        "row": 41,
+        "col": 22,
+        "width": 6
+      },
+      {
+        "row": 53,
+        "col": 52,
+        "width": 6
+      },
+      {
+        "row": 59,
+        "col": 24,
+        "width": 6
+      },
+      {
+        "row": 65,
+        "col": 50,
+        "width": 6
+      },
+      {
+        "row": 67,
+        "col": 34,
+        "width": 6
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N8_s006",
+    "method": "anneal",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.4514093941519992,
+    "fine_initial_Q": 1.351930571769878,
+    "fine_gain_percent": 7.35827892788079,
+    "paired_gap_change": 0.0011553880841748132,
+    "paired_gap_change_fraction": 0.011614412560461355,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N8_s006_783a8451e307a848.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 66,
+        "width": 6
+      },
+      {
+        "row": 33,
+        "col": 26,
+        "width": 6
+      },
+      {
+        "row": 45,
+        "col": 22,
+        "width": 6
+      },
+      {
+        "row": 45,
+        "col": 42,
+        "width": 6
+      },
+      {
+        "row": 49,
+        "col": 74,
+        "width": 6
+      },
+      {
+        "row": 55,
+        "col": 40,
+        "width": 6
+      },
+      {
+        "row": 63,
+        "col": 24,
+        "width": 6
+      },
+      {
+        "row": 67,
+        "col": 48,
+        "width": 6
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N8_s006",
+    "method": "random",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.4555038916339833,
+    "fine_initial_Q": 1.357883667815959,
+    "fine_gain_percent": 7.189144853258167,
+    "paired_gap_change": 0.0009951478322758334,
+    "paired_gap_change_fraction": 0.010194074479186879,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N8_s006_f3447b1724accd36.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 22,
+        "width": 6
+      },
+      {
+        "row": 35,
+        "col": 30,
+        "width": 6
+      },
+      {
+        "row": 35,
+        "col": 42,
+        "width": 6
+      },
+      {
+        "row": 39,
+        "col": 80,
+        "width": 6
+      },
+      {
+        "row": 49,
+        "col": 22,
+        "width": 6
+      },
+      {
+        "row": 63,
+        "col": 32,
+        "width": 6
+      },
+      {
+        "row": 63,
+        "col": 42,
+        "width": 6
+      },
+      {
+        "row": 65,
+        "col": 72,
+        "width": 6
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N8_s006",
+    "method": "greedy",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.4503531736525341,
+    "fine_initial_Q": 1.357883667815959,
+    "fine_gain_percent": 6.809825320699581,
+    "paired_gap_change": 0.0015073014573876442,
+    "paired_gap_change_fraction": 0.016300524629725546,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N8_s006_7c08d161eab6ead2.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 36,
+        "width": 6
+      },
+      {
+        "row": 29,
+        "col": 26,
+        "width": 6
+      },
+      {
+        "row": 33,
+        "col": 40,
+        "width": 6
+      },
+      {
+        "row": 41,
+        "col": 28,
+        "width": 6
+      },
+      {
+        "row": 49,
+        "col": 60,
+        "width": 6
+      },
+      {
+        "row": 57,
+        "col": 24,
+        "width": 6
+      },
+      {
+        "row": 57,
+        "col": 36,
+        "width": 6
+      },
+      {
+        "row": 63,
+        "col": 50,
+        "width": 6
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N8_s006",
+    "method": "anneal",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.4708475049119134,
+    "fine_initial_Q": 1.357883667815959,
+    "fine_gain_percent": 8.319110080883974,
+    "paired_gap_change": 0.0016784110332674906,
+    "paired_gap_change_fraction": 0.014857949910481562,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N8_s006_b62eab7645498147.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 38,
+        "width": 6
+      },
+      {
+        "row": 29,
+        "col": 26,
+        "width": 6
+      },
+      {
+        "row": 41,
+        "col": 22,
+        "width": 6
+      },
+      {
+        "row": 43,
+        "col": 68,
+        "width": 6
+      },
+      {
+        "row": 57,
+        "col": 26,
+        "width": 6
+      },
+      {
+        "row": 59,
+        "col": 38,
+        "width": 6
+      },
+      {
+        "row": 61,
+        "col": 54,
+        "width": 6
+      },
+      {
+        "row": 69,
+        "col": 32,
+        "width": 6
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N8_s006",
+    "method": "random",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.4689547035086363,
+    "fine_initial_Q": 1.3453236151932333,
+    "fine_gain_percent": 9.18969138125516,
+    "paired_gap_change": 0.0017245465481416922,
+    "paired_gap_change_fraction": 0.013949133439172623,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N8_s006_dc8debe66e50e508.npz",
+    "holes": [
+      {
+        "row": 33,
+        "col": 24,
+        "width": 6
+      },
+      {
+        "row": 33,
+        "col": 46,
+        "width": 6
+      },
+      {
+        "row": 35,
+        "col": 34,
+        "width": 6
+      },
+      {
+        "row": 45,
+        "col": 22,
+        "width": 6
+      },
+      {
+        "row": 45,
+        "col": 68,
+        "width": 6
+      },
+      {
+        "row": 53,
+        "col": 36,
+        "width": 6
+      },
+      {
+        "row": 73,
+        "col": 24,
+        "width": 6
+      },
+      {
+        "row": 73,
+        "col": 54,
+        "width": 6
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N8_s006",
+    "method": "greedy",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.4897968042814107,
+    "fine_initial_Q": 1.3453236151932333,
+    "fine_gain_percent": 10.738917198552734,
+    "paired_gap_change": 0.0018744176746350316,
+    "paired_gap_change_fraction": 0.012974155872554348,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N8_s006_2701beb1a44566c8.npz",
+    "holes": [
+      {
+        "row": 25,
+        "col": 26,
+        "width": 6
+      },
+      {
+        "row": 25,
+        "col": 36,
+        "width": 6
+      },
+      {
+        "row": 45,
+        "col": 36,
+        "width": 6
+      },
+      {
+        "row": 49,
+        "col": 22,
+        "width": 6
+      },
+      {
+        "row": 49,
+        "col": 52,
+        "width": 6
+      },
+      {
+        "row": 59,
+        "col": 26,
+        "width": 6
+      },
+      {
+        "row": 61,
+        "col": 50,
+        "width": 6
+      },
+      {
+        "row": 75,
+        "col": 24,
+        "width": 6
+      }
+    ]
+  },
+  {
+    "case": "constP_B1_N8_s006",
+    "method": "anneal",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.4318578073906536,
+    "fine_initial_Q": 1.3453236151932333,
+    "fine_gain_percent": 6.432221304982533,
+    "paired_gap_change": 0.001260272760729153,
+    "paired_gap_change_fraction": 0.014563870404590468,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/constP_B1_N8_s006_ea33ef35719a0f6f.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 26,
+        "width": 6
+      },
+      {
+        "row": 31,
+        "col": 70,
+        "width": 6
+      },
+      {
+        "row": 35,
+        "col": 44,
+        "width": 6
+      },
+      {
+        "row": 43,
+        "col": 30,
+        "width": 6
+      },
+      {
+        "row": 55,
+        "col": 28,
+        "width": 6
+      },
+      {
+        "row": 59,
+        "col": 48,
+        "width": 6
+      },
+      {
+        "row": 67,
+        "col": 24,
+        "width": 6
+      },
+      {
+        "row": 75,
+        "col": 40,
+        "width": 6
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N2_s008",
+    "method": "random",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.2421785615989338,
+    "fine_initial_Q": 1.180382239256873,
+    "fine_gain_percent": 5.235280596984038,
+    "paired_gap_change": 0.0007993978767764087,
+    "paired_gap_change_fraction": 0.012936010533952276,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N2_s008_5ea01a6c4bc68792.npz",
+    "holes": [
+      {
+        "row": 39,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 48,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N2_s008",
+    "method": "greedy",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.2807799224021532,
+    "fine_initial_Q": 1.180382239256873,
+    "fine_gain_percent": 8.50552302519285,
+    "paired_gap_change": 0.0010805030900853385,
+    "paired_gap_change_fraction": 0.010762231320834361,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N2_s008_4908896ef67527ba.npz",
+    "holes": [
+      {
+        "row": 43,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 61,
+        "col": 28,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N2_s008",
+    "method": "anneal",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.282017921495457,
+    "fine_initial_Q": 1.180382239256873,
+    "fine_gain_percent": 8.610404228258318,
+    "paired_gap_change": 0.001154965933884311,
+    "paired_gap_change_fraction": 0.011363783943252274,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N2_s008_8326d69f4033f03d.npz",
+    "holes": [
+      {
+        "row": 43,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 28,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N2_s008",
+    "method": "random",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.2558344659312815,
+    "fine_initial_Q": 1.1943317733054943,
+    "fine_gain_percent": 5.1495483918651,
+    "paired_gap_change": 0.000849574267140385,
+    "paired_gap_change_fraction": 0.013813610930981773,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N2_s008_b566a2bbb0e44e1e.npz",
+    "holes": [
+      {
+        "row": 39,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 40,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N2_s008",
+    "method": "greedy",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.2807962088604337,
+    "fine_initial_Q": 1.1943317733054943,
+    "fine_gain_percent": 7.239565880059939,
+    "paired_gap_change": 0.0014356234236623244,
+    "paired_gap_change_fraction": 0.01660362916207476,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N2_s008_1bec1dd868ceedbb.npz",
+    "holes": [
+      {
+        "row": 39,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N2_s008",
+    "method": "anneal",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.2839752705690914,
+    "fine_initial_Q": 1.1943317733054943,
+    "fine_gain_percent": 7.505744992071595,
+    "paired_gap_change": 0.0016652988253720302,
+    "paired_gap_change_fraction": 0.018576906035640394,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N2_s008_046bb260f2bf5c89.npz",
+    "holes": [
+      {
+        "row": 35,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 24,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N2_s008",
+    "method": "random",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.2750099662063543,
+    "fine_initial_Q": 1.1536015946114766,
+    "fine_gain_percent": 10.524289508785479,
+    "paired_gap_change": 0.001132466753678285,
+    "paired_gap_change_fraction": 0.009327748480616838,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N2_s008_93d81107867648ec.npz",
+    "holes": [
+      {
+        "row": 43,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 61,
+        "col": 32,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N2_s008",
+    "method": "greedy",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.2819723470173905,
+    "fine_initial_Q": 1.1536015946114766,
+    "fine_gain_percent": 11.12782376563446,
+    "paired_gap_change": 0.001384155118770325,
+    "paired_gap_change_fraction": 0.01078248037678837,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N2_s008_b6d786d97e4d61c7.npz",
+    "holes": [
+      {
+        "row": 43,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 61,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N2_s008",
+    "method": "anneal",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.2832158743161006,
+    "fine_initial_Q": 1.1536015946114766,
+    "fine_gain_percent": 11.235618978862206,
+    "paired_gap_change": 0.0015030079382694073,
+    "paired_gap_change_fraction": 0.011596005792684176,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N2_s008_54530388466331d0.npz",
+    "holes": [
+      {
+        "row": 43,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N4_s008",
+    "method": "random",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.3325993075447484,
+    "fine_initial_Q": 1.2321111642314608,
+    "fine_gain_percent": 8.155769238238175,
+    "paired_gap_change": 0.0011286655557347647,
+    "paired_gap_change_fraction": 0.011231828139325575,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N4_s008_c630b39d49e1e3a4.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 30,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 48,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N4_s008",
+    "method": "greedy",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.365204642480789,
+    "fine_initial_Q": 1.2321111642314608,
+    "fine_gain_percent": 10.802067387510972,
+    "paired_gap_change": 0.0019294603631270224,
+    "paired_gap_change_fraction": 0.014497031623987635,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N4_s008_6be96b295ca9c7a8.npz",
+    "holes": [
+      {
+        "row": 39,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 63,
+        "col": 40,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N4_s008",
+    "method": "anneal",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.3570952600358885,
+    "fine_initial_Q": 1.2321111642314608,
+    "fine_gain_percent": 10.143897680075597,
+    "paired_gap_change": 0.001721304857317918,
+    "paired_gap_change_fraction": 0.013772191143514587,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N4_s008_fd79118ddad601be.npz",
+    "holes": [
+      {
+        "row": 27,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 52,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N4_s008",
+    "method": "random",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.3692146885974934,
+    "fine_initial_Q": 1.220113500324482,
+    "fine_gain_percent": 12.220271985627473,
+    "paired_gap_change": 0.001465641517468974,
+    "paired_gap_change_fraction": 0.009829844647416996,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N4_s008_3853981f72df97ec.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 54,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N4_s008",
+    "method": "greedy",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.386147190628444,
+    "fine_initial_Q": 1.220113500324482,
+    "fine_gain_percent": 13.608052878671216,
+    "paired_gap_change": 0.0027364629317336853,
+    "paired_gap_change_fraction": 0.01648137150191613,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N4_s008_300d4f7079a117d7.npz",
+    "holes": [
+      {
+        "row": 25,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 24,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N4_s008",
+    "method": "anneal",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.377737645486209,
+    "fine_initial_Q": 1.220113500324482,
+    "fine_gain_percent": 12.918810022166593,
+    "paired_gap_change": 0.001683989957788734,
+    "paired_gap_change_fraction": 0.010683578686887803,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N4_s008_9801b99096ea69b3.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 32,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N4_s008",
+    "method": "random",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.3304140029599696,
+    "fine_initial_Q": 1.3030535493339839,
+    "fine_gain_percent": 2.0997182840237105,
+    "paired_gap_change": 0.00021258064038609525,
+    "paired_gap_change_fraction": 0.0077696314283399095,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N4_s008_b63084d98e408100.npz",
+    "holes": [
+      {
+        "row": 27,
+        "col": 54,
+        "width": 8
+      },
+      {
+        "row": 31,
+        "col": 34,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 50,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N4_s008",
+    "method": "greedy",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.385028533814519,
+    "fine_initial_Q": 1.3030535493339839,
+    "fine_gain_percent": 6.290991227677023,
+    "paired_gap_change": 0.0011008296140597729,
+    "paired_gap_change_fraction": 0.013428848093544492,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N4_s008_003d3dd59c8ba718.npz",
+    "holes": [
+      {
+        "row": 25,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 30,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 28,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N4_s008",
+    "method": "anneal",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.3757621023344686,
+    "fine_initial_Q": 1.3030535493339839,
+    "fine_gain_percent": 5.579859172913304,
+    "paired_gap_change": 0.0005150923411891828,
+    "paired_gap_change_fraction": 0.007084343174670919,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N4_s008_adafcfb245f23834.npz",
+    "holes": [
+      {
+        "row": 25,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 28,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N8_s008",
+    "method": "random",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.4422792603216523,
+    "fine_initial_Q": 1.3965619467664179,
+    "fine_gain_percent": 3.2735614529013635,
+    "paired_gap_change": 0.00027118185858920896,
+    "paired_gap_change_fraction": 0.005931710275617446,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N8_s008_100e0b391831e357.npz",
+    "holes": [
+      {
+        "row": 29,
+        "col": 34,
+        "width": 8
+      },
+      {
+        "row": 33,
+        "col": 50,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 60,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 56,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N8_s008",
+    "method": "greedy",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.4562370313118793,
+    "fine_initial_Q": 1.3965619467664179,
+    "fine_gain_percent": 4.272999467272642,
+    "paired_gap_change": 0.0009121995911842706,
+    "paired_gap_change_fraction": 0.015286104714092901,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N8_s008_8bc90cc3fe04338b.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 25,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 39,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 54,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 38,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N8_s008",
+    "method": "anneal",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.4287383061542565,
+    "fine_initial_Q": 1.3965619467664179,
+    "fine_gain_percent": 2.303969362930114,
+    "paired_gap_change": 0.00014452100462691853,
+    "paired_gap_change_fraction": 0.0044915275493082,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N8_s008_c27111eac8f3c511.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 27,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 33,
+        "col": 58,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 60,
+        "width": 8
+      },
+      {
+        "row": 63,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N8_s008",
+    "method": "random",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.4430608477299331,
+    "fine_initial_Q": 1.3610378909692429,
+    "fine_gain_percent": 6.026500606994767,
+    "paired_gap_change": 0.0008105383461816107,
+    "paired_gap_change_fraction": 0.009881847450908567,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N8_s008_ecdc41d11450f8b5.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 56,
+        "width": 8
+      },
+      {
+        "row": 25,
+        "col": 44,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 66,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 50,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 38,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N8_s008",
+    "method": "greedy",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.4541766166877756,
+    "fine_initial_Q": 1.3610378909692429,
+    "fine_gain_percent": 6.843213281314697,
+    "paired_gap_change": 0.0022493836159700464,
+    "paired_gap_change_fraction": 0.024150895329701334,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N8_s008_fa58869226eee48f.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 23,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 31,
+        "col": 62,
+        "width": 8
+      },
+      {
+        "row": 39,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 54,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N8_s008",
+    "method": "anneal",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.4274092223054027,
+    "fine_initial_Q": 1.3610378909692429,
+    "fine_gain_percent": 4.8765234073604224,
+    "paired_gap_change": 0.0008958559638025942,
+    "paired_gap_change_fraction": 0.013497634381706647,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N8_s008_8ab95fe4b55cb82d.npz",
+    "holes": [
+      {
+        "row": 25,
+        "col": 32,
+        "width": 8
+      },
+      {
+        "row": 25,
+        "col": 50,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 66,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 44,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 62,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 24,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N8_s008",
+    "method": "random",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.4345763392223718,
+    "fine_initial_Q": 1.3968854894361942,
+    "fine_gain_percent": 2.698206121490343,
+    "paired_gap_change": 0.00023834489880147913,
+    "paired_gap_change_fraction": 0.0063236806851960994,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N8_s008_4f50b5ec35e6bdec.npz",
+    "holes": [
+      {
+        "row": 27,
+        "col": 30,
+        "width": 8
+      },
+      {
+        "row": 29,
+        "col": 66,
+        "width": 8
+      },
+      {
+        "row": 31,
+        "col": 44,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 62,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 74,
+        "width": 8
+      },
+      {
+        "row": 61,
+        "col": 36,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N8_s008",
+    "method": "greedy",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.4641689870342045,
+    "fine_initial_Q": 1.3968854894361942,
+    "fine_gain_percent": 4.816679542226976,
+    "paired_gap_change": 0.0010855235537412522,
+    "paired_gap_change_fraction": 0.016133577957358636,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N8_s008_0ba34630cce81aa3.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 44,
+        "width": 8
+      },
+      {
+        "row": 25,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 39,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 56,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 36,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "fixedS_B1_N8_s008",
+    "method": "anneal",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.4697841376365774,
+    "fine_initial_Q": 1.3968854894361942,
+    "fine_gain_percent": 5.2186559851664205,
+    "paired_gap_change": 0.00081141282596775,
+    "paired_gap_change_fraction": 0.011130697838694406,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/fixedS_B1_N8_s008_2dfa5bdf7ff21b87.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 23,
+        "col": 52,
+        "width": 8
+      },
+      {
+        "row": 25,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 63,
+        "col": 50,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 36,
+        "width": 8
+      }
+    ]
+  }
+]

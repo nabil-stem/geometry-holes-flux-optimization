@@ -57,6 +57,16 @@ Runs $N \in \{2, 4, 6, 8\}$ with fixed square side $s = 0.08$, minimum gap $0.04
 python research.py --config config_n_sweep.json
 ```
 
+### D. Conducting-Neck, Constant-Perimeter Subdivision & Independent FEM Study (`config_extensions.json`)
+Runs 9 cases with 3 seeds (`81201..81203`), 65 solves per task, multi-grid refinement ($n=100, 200, 400$), and **independent P1 finite-element cross-checks (`fem_max_areas: [0.0005, 0.0002]`)**:
+1. **Conducting (Neumann/reflecting) inlet neck** (`cneck_B01_N6`, `cneck_B1_N6`, `cneck_B10_N6`): tests whether making the narrow inlet duct non-absorbing restores downstream hole-placement sensitivity across $\mathrm{Bi} \in \{0.1, 1.0, 10.0\}$.
+2. **Constant-Perimeter Subdivision** (`constP_B1_N3_s016`, `constP_B1_N4_s012`, `constP_B1_N8_s006`, compared with $N=6, s=0.08$): holds total reactive perimeter strictly fixed at $P_{\text{Robin}} = 4.46$ ($4 N s = 1.92$) across $N \in \{3, 4, 6, 8\}$ to test whether fewer large islands or more small islands maximize uptake.
+3. **Fixed-Square-Size $N$-Sweep** (`fixedS_B1_N2_s008`, `fixedS_B1_N4_s008`, `fixedS_B1_N8_s008`, compared with $N=6, s=0.08$): varies $N \in \{2, 4, 6, 8\}$ at fixed $s=0.08$.
+
+```powershell
+python research.py --config config_extensions.json
+```
+
 ---
 
 ## 3. Resuming Interrupted Runs & Rebuilding Reports

@@ -9,7 +9,7 @@ from research_core import decode, encode
 
 
 def baselines(problem):
-    if problem.case.hole_count == 6 and abs(problem.config.hole_width-.08) < 1e-12:
+    if problem.case.hole_count == 6 and abs(problem.hole_width-.08) < 1e-12:
         points = {
             "spread": [(x,y) for y in (.32,.60) for x in (.28,.50,.72)],
             "proximal": [(x,y) for y in (.36,.52) for x in (.24,.36,.48)],
@@ -23,7 +23,8 @@ def baselines(problem):
         for holes in result.values():
             problem.geometry(holes)
         return result
-    return {"fixed_reference": problem.random_layout(np.random.default_rng(9400+problem.case.hole_count))}
+    return {"fixed_reference": problem.random_layout(
+        np.random.default_rng(9400+problem.case.hole_count*100+problem.width))}
 
 
 class Validator:

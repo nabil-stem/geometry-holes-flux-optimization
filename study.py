@@ -85,6 +85,18 @@ def chamber(n, width):
     return RasterGeometry(mask, 1/n, source)
 
 
+def conducting_neck_chamber(n):
+    """Same domain as maze_chamber(n), with reflecting (Neumann) inlet neck walls."""
+    base = maze_chamber(n)
+    r_south, r_north = round(0.45*n), round(0.55*n) - 1
+    neumann = tuple(
+        FaceKey(r, c, side)
+        for r, side in ((r_south, Side.SOUTH), (r_north, Side.NORTH))
+        for c in range(round(0.18*n))
+    )
+    return RasterGeometry(base.inside, base.h, base.source_faces, neumann)
+
+
 def hole_options(config):
     return dict(gap=config["gap"], protected_length=0.18,
                 minimum_feature_width=min(0.04, config["hole_width"], config["gap"]))

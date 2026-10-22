@@ -23,11 +23,16 @@ class Problem:
     def __init__(self, protocol, case):
         self.config, self.case = protocol, case
         self.n = protocol.grid_n
-        self.width = round(protocol.hole_width*self.n)
+        self.hole_width = case.hole_width or protocol.hole_width
+        self.width = round(self.hole_width*self.n)
         self.stride = round(protocol.position_stride*self.n)
         self.step = round(protocol.local_step*self.n)//self.stride
-        self.outer = (ref.maze_chamber(self.n) if case.source == "neck"
-                      else ref.chamber(self.n, case.source_width))
+        if case.source == "neck":
+            self.outer = ref.maze_chamber(self.n)
+        elif case.source == "conducting_neck":
+            self.outer = ref.conducting_neck_chamber(self.n)
+        else:
+            self.outer = ref.chamber(self.n, case.source_width)
         self.options = dict(gap=protocol.gap, protected_length=.18,
                             minimum_feature_width=protocol.minimum_feature_width)
         self.model = ref.DiffusionModel(Bi=case.Bi)

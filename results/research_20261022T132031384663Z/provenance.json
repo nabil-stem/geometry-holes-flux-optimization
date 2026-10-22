@@ -1,0 +1,30 @@
+{
+  "created_utc": "20261022T132031526887Z",
+  "python": "3.10.0",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "source_hashes": {
+    "source_experiment/research.py": "75abf7e72f6950446b8c56f66cb18195bea692a6a65cb5531d8161f661e1a8e4",
+    "source_experiment/research_config.py": "b28cc50db1b48b416e02c7b9f9de7893471c3fa5b09f50c9969e08b7611368a2",
+    "source_experiment/research_core.py": "78ef1107db0a38ac9df1fc471521fb4100a5a95cb3468899e34378a92a85d157",
+    "source_experiment/research_report.py": "85ccd7ec1b33d3d9b0a54356f98509eff0cddcd6a6714ce2815450a9d2638c3f",
+    "source_experiment/research_validation.py": "26dbd18aaff3812ba2c3349f5618458859353da498ff2b3b04d3d9962fb7e9fc",
+    "source_experiment/study.py": "e9b4c26a486de4151bc8d56a43d95efed7925af93e78527c75bfc72e818ef3a2",
+    "source_reference/src/oxygen_shape/__init__.py": "b21505409421e975fc4cf9954c71c0cf2c33dbe540b321c72ba8a4acd8a62d76",
+    "source_reference/src/oxygen_shape/geometry/boundary.py": "65c1b6a2886d8ab0463dc297ad69ea5d20d89533316386b3b98008117752edae",
+    "source_reference/src/oxygen_shape/geometry/connectivity.py": "c9c6db8094bbdac810b4632901f064b29354740ec708de07af39ccddc3aa5085",
+    "source_reference/src/oxygen_shape/geometry/constraints.py": "0f741ab1126fb09f33e1523363db421ba70e38590b068bdabffd905c658982f2",
+    "source_reference/src/oxygen_shape/geometry/raster.py": "0e94276ae52bd5c900d009bd9bdba976ce0cd99774ffd54dbb304dc9c3cf798e",
+    "source_reference/src/oxygen_shape/geometry/square_holes.py": "6165bc0fe50b0b0cd9a6904a7e5ee55617ca746f3eef527eea14ff7c00869ff7",
+    "source_reference/src/oxygen_shape/geometry/__init__.py": "ff00a294d1412ee2e99e86d3a1dbc86ad98e9e001c4d4a471f9a31725d025eb2",
+    "source_reference/src/oxygen_shape/physics/metrics.py": "87118565804131188b6a79c727416272b9e02f99f19806e7849c34c79f021561",
+    "source_reference/src/oxygen_shape/physics/model.py": "27558cd5963a398a15021c80e8470aa403938708837acd376278dab3e0d5277c",
+    "source_reference/src/oxygen_shape/physics/__init__.py": "978186300604c761b48375b8c93b83cc58b564f89c15fb1104cd0c65ffdfcfd6",
+    "source_reference/src/oxygen_shape/solvers/analytical_1d.py": "78f81d243f979e2e4a1296b608ae3718543e94ec75a2f3af3061de10d4806686",
+    "source_reference/src/oxygen_shape/solvers/diagnostics.py": "ade0d3d983f783ceb135c2eb74074382e6fdedb03fad78fc7178467f36889a73",
+    "source_reference/src/oxygen_shape/solvers/fem_reference.py": "b802f374c3891b028a1fc85107941f8e47eb188021fb3767e3b501ca42d0aa90",
+    "source_reference/src/oxygen_shape/solvers/finite_volume.py": "a89c8d8233ef521c57d35d8598ba80d16aad3976f8aeff6199e7899b393e1bfc",
+    "source_reference/src/oxygen_shape/solvers/__init__.py": "6c6db47df40c81ec8efcd1cabe98fcb0bafbcb7d3c80ebaf6d543db9b82b0853",
+    "protocol.json": "246f6aa84acb862daeb362b692dd45bfb780a77b57f3c5cd89a6a5d730220275"
+  }
+}

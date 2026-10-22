@@ -1,0 +1,17 @@
+{
+  "label": "conducting_neck_and_n_sweeps_with_fem",
+  "seeds": [81201, 81202, 81203],
+  "solve_budget": 65,
+  "fem_max_areas": [0.0005, 0.0002],
+  "cases": [
+    {"name": "cneck_B01_N6", "source": "conducting_neck", "source_width": 0.1, "Bi": 0.1, "hole_count": 6},
+    {"name": "cneck_B1_N6", "source": "conducting_neck", "source_width": 0.1, "Bi": 1.0, "hole_count": 6},
+    {"name": "cneck_B10_N6", "source": "conducting_neck", "source_width": 0.1, "Bi": 10.0, "hole_count": 6},
+    {"name": "constP_B1_N3_s016", "source": "direct", "source_width": 0.3, "Bi": 1.0, "hole_count": 3, "hole_width": 0.16},
+    {"name": "constP_B1_N4_s012", "source": "direct", "source_width": 0.3, "Bi": 1.0, "hole_count": 4, "hole_width": 0.12},
+    {"name": "constP_B1_N8_s006", "source": "direct", "source_width": 0.3, "Bi": 1.0, "hole_count": 8, "hole_width": 0.06},
+    {"name": "fixedS_B1_N2_s008", "source": "direct", "source_width": 0.3, "Bi": 1.0, "hole_count": 2, "hole_width": 0.08},
+    {"name": "fixedS_B1_N4_s008", "source": "direct", "source_width": 0.3, "Bi": 1.0, "hole_count": 4, "hole_width": 0.08},
+    {"name": "fixedS_B1_N8_s008", "source": "direct", "source_width": 0.3, "Bi": 1.0, "hole_count": 8, "hole_width": 0.08}
+  ]
+}

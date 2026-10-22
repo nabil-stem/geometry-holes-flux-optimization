@@ -106,7 +106,8 @@ def build_report(root):
         fig.colorbar(im,ax=list(axes),label="u; common linear scale 0 to 1",shrink=.75)
         fig.savefig(figures/f"fields_{name}.png",dpi=150)
         plt.close(fig)
-        brief = (f"N={case['hole_count']}, Bi={case['Bi']:g}, source={case['source']}, "
+        hw = case.get("hole_width") or config["hole_width"]
+        brief = (f"N={case['hole_count']}, hole_width={hw:g}, Bi={case['Bi']:g}, source={case['source']}, "
                  f"width={case['source_width']:g}. Best observed validated design: {winner['candidate']}; "
                  f"Q={winner['fine_Q']:.7f} at n={winner['fine_n']}.")
         content.append(f"<section><h2>{html.escape(name)}</h2><p>{html.escape(brief)}</p>"+
@@ -159,6 +160,11 @@ def build_report(root):
         table(["Case","Reflecting obstruction ΔQ","Activating hole walls ΔQ","Inner-wall Q","Outer-wall Q"],diagnostic_rows)+
         "<p>No-hole and reflecting-hole cases change resources and are explanatory diagnostics, not competing fixed-resource designs.</p></section>"
         f"<section><h2>Saved evidence</h2>{links}</section></html>")
+    if fem_rows:
+        markdown.extend(["## Independent FEM cross-check", "", "| Case | FEM Q | FEM vs finest FVM | FEM vertices |",
+                         "|---|---:|---:|---:|"])
+        markdown.extend(f"| {r[0]} | {r[1]} | {r[2]} | {r[3]} |" for r in fem_rows)
+        markdown.append("")
     (root/"report.html").write_text(document,encoding="utf-8")
     (root/"report.md").write_text("\n".join(markdown+[note,"",costs]),encoding="utf-8")
     with (root/"method_comparison.csv").open("w",newline="",encoding="utf-8") as handle:

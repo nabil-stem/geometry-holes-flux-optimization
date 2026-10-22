@@ -1,0 +1,108 @@
+{
+  "label": "conducting_neck_and_n_sweeps_with_fem",
+  "grid_n": 100,
+  "hole_width": 0.08,
+  "gap": 0.04,
+  "minimum_feature_width": 0.04,
+  "position_stride": 0.02,
+  "local_step": 0.08,
+  "global_move_probability": 0.3,
+  "seeds": [
+    81201,
+    81202,
+    81203
+  ],
+  "methods": [
+    "random",
+    "greedy",
+    "anneal"
+  ],
+  "solve_budget": 65,
+  "max_proposals": 20000,
+  "temperature_start": 0.02,
+  "temperature_end": 0.0002,
+  "refinement_factors": [
+    2,
+    4
+  ],
+  "fem_max_areas": [
+    0.0005,
+    0.0002
+  ],
+  "practical_gain_percent": 1.0,
+  "gap_change_fraction": 0.1,
+  "cases": [
+    {
+      "name": "cneck_B01_N6",
+      "hole_count": 6,
+      "hole_width": null,
+      "Bi": 0.1,
+      "source": "conducting_neck",
+      "source_width": 0.1
+    },
+    {
+      "name": "cneck_B1_N6",
+      "hole_count": 6,
+      "hole_width": null,
+      "Bi": 1.0,
+      "source": "conducting_neck",
+      "source_width": 0.1
+    },
+    {
+      "name": "cneck_B10_N6",
+      "hole_count": 6,
+      "hole_width": null,
+      "Bi": 10.0,
+      "source": "conducting_neck",
+      "source_width": 0.1
+    },
+    {
+      "name": "constP_B1_N3_s016",
+      "hole_count": 3,
+      "hole_width": 0.16,
+      "Bi": 1.0,
+      "source": "direct",
+      "source_width": 0.3
+    },
+    {
+      "name": "constP_B1_N4_s012",
+      "hole_count": 4,
+      "hole_width": 0.12,
+      "Bi": 1.0,
+      "source": "direct",
+      "source_width": 0.3
+    },
+    {
+      "name": "constP_B1_N8_s006",
+      "hole_count": 8,
+      "hole_width": 0.06,
+      "Bi": 1.0,
+      "source": "direct",
+      "source_width": 0.3
+    },
+    {
+      "name": "fixedS_B1_N2_s008",
+      "hole_count": 2,
+      "hole_width": 0.08,
+      "Bi": 1.0,
+      "source": "direct",
+      "source_width": 0.3
+    },
+    {
+      "name": "fixedS_B1_N4_s008",
+      "hole_count": 4,
+      "hole_width": 0.08,
+      "Bi": 1.0,
+      "source": "direct",
+      "source_width": 0.3
+    },
+    {
+      "name": "fixedS_B1_N8_s008",
+      "hole_count": 8,
+      "hole_width": 0.08,
+      "Bi": 1.0,
+      "source": "direct",
+      "source_width": 0.3
+    }
+  ]
+}

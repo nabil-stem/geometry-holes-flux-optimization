@@ -10,8 +10,9 @@ class Case(BaseModel):
     model_config = ConfigDict(extra="forbid", frozen=True, allow_inf_nan=False)
     name: str = Field(pattern=r"^[A-Za-z0-9_-]+$")
     hole_count: int = Field(default=6, ge=1, strict=True)
+    hole_width: float | None = Field(default=None, gt=0)
     Bi: float = Field(default=1, gt=0)
-    source: Literal["direct", "neck"] = "direct"
+    source: Literal["direct", "neck", "conducting_neck"] = "direct"
     source_width: float = Field(default=.3, gt=0, le=.7)
 
 
@@ -65,10 +66,13 @@ class Protocol(BaseModel):
         lengths = [self.hole_width, self.gap, self.minimum_feature_width,
                    self.position_stride, self.local_step]
         for case in self.cases:
-            if case.source == "neck" and abs(case.source_width-.1) > 1e-12:
+            hw = case.hole_width or self.hole_width
+            if hw < self.minimum_feature_width:
+                raise ValueError("Case hole_width is below the feature cutoff")
+            if case.source in ("neck", "conducting_neck") and abs(case.source_width-.1) > 1e-12:
                 raise ValueError("The historical neck has fixed width 0.10")
-            lengths.extend([case.source_width, .5-case.source_width/2])
-            if case.hole_count*(self.hole_width+ self.gap)**2 >= .72*.70:
+            lengths.extend([hw, case.source_width, .5-case.source_width/2])
+            if case.hole_count*(hw+ self.gap)**2 >= .72*.70:
                 raise ValueError("Hole count exceeds a conservative packing bound")
         if any(abs(v*self.grid_n-round(v*self.grid_n)) > 1e-10 for v in lengths):
             raise ValueError("Lengths and source endpoints must fit the base mesh")

@@ -63,3 +63,28 @@ def test_crash_nul_byte_sanitization_in_ledger_and_history(tmp_path):
     ]
     assert len(cleaned) == 2
 
+
+def test_conducting_neck_and_constant_perimeter_subdivision():
+    protocol = Protocol(
+        seeds=[81201],
+        solve_budget=3,
+        cases=[
+            Case(name="cneck_B10_N6", source="conducting_neck", source_width=0.1, Bi=10.0, hole_count=6),
+            Case(name="constP_N3_s016", source="direct", source_width=0.3, Bi=1.0, hole_count=3, hole_width=0.16),
+            Case(name="constP_N4_s012", source="direct", source_width=0.3, Bi=1.0, hole_count=4, hole_width=0.12),
+            Case(name="constP_N8_s006", source="direct", source_width=0.3, Bi=1.0, hole_count=8, hole_width=0.06),
+        ],
+    )
+    rng = np.random.default_rng(42)
+    cneck = Problem(protocol, protocol.cases[0])
+    res_cneck = cneck.evaluate(cneck.random_layout(rng))
+    assert np.isclose(res_cneck.metrics.robin_perimeter, 4.66, atol=1e-12)
+
+    perimeters = []
+    for case in protocol.cases[1:]:
+        prob = Problem(protocol, case)
+        res = prob.evaluate(prob.random_layout(rng))
+        perimeters.append(res.metrics.robin_perimeter)
+    assert np.allclose(perimeters, 4.46, atol=1e-12)
+
+
