@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "search_tasks": 9,
+  "nominal_search_solves": 585,
+  "completed_task_search_solves": 585,
+  "paid_solves_by_phase": {
+    "search": 585,
+    "validation_fvm": 48,
+    "mechanism_fvm": 3
+  },
+  "check_linear_solves": 4,
+  "latest_execution_seconds": 137.1951826000004
+}

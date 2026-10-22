@@ -1,0 +1,41 @@
+[
+  {
+    "case": "direct_B1_N6",
+    "candidate": "anneal_81203",
+    "fine_Q": 1.4453677721323905,
+    "fine_n": 400,
+    "field_file": "fields/direct_B1_N6_39605efcd195c313.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 44,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  }
+]

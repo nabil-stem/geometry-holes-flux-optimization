@@ -1,0 +1,759 @@
+[
+  {
+    "method": "random",
+    "seed": 81201,
+    "status": "complete",
+    "solves": 65,
+    "budget": 65,
+    "raw_proposals": 64,
+    "rejected_proposals": {},
+    "initial_Q": 1.3725368250602858,
+    "best_Q": 1.3786057478008944,
+    "final_current_Q": 1.3786057478008944,
+    "gain_percent": 0.4421682995894738,
+    "elapsed_seconds": 18.103285300000607,
+    "best_holes": [
+      {
+        "row": 21,
+        "col": 30,
+        "width": 8
+      },
+      {
+        "row": 31,
+        "col": 76,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 52,
+        "width": 8
+      }
+    ],
+    "initial_holes": [
+      {
+        "row": 29,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 54,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 76,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 60,
+        "width": 8
+      }
+    ],
+    "initial_geometry_sha256": "0e203117d9db9dfd871d55148b94e1fadb2feb8985993794bfcca264431ef182",
+    "case": "direct_B1_N6"
+  },
+  {
+    "method": "greedy",
+    "seed": 81201,
+    "status": "complete",
+    "solves": 65,
+    "budget": 65,
+    "raw_proposals": 139,
+    "rejected_proposals": {
+      "Squares overlap or violate inter-square clearance": 56,
+      "Thin appendage exceeds minimum-feature residual allowance": 5,
+      "Square enters the protected source collar": 5,
+      "Duplicate unordered layout": 2,
+      "Square violates exterior clearance": 7
+    },
+    "initial_Q": 1.3725368250602858,
+    "best_Q": 1.4211428312107195,
+    "final_current_Q": 1.4211428312107195,
+    "gain_percent": 3.5413261970802745,
+    "elapsed_seconds": 9.609051600000384,
+    "best_holes": [
+      {
+        "row": 27,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 29,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 50,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 26,
+        "width": 8
+      }
+    ],
+    "initial_holes": [
+      {
+        "row": 29,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 54,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 76,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 60,
+        "width": 8
+      }
+    ],
+    "initial_geometry_sha256": "0e203117d9db9dfd871d55148b94e1fadb2feb8985993794bfcca264431ef182",
+    "case": "direct_B1_N6"
+  },
+  {
+    "method": "anneal",
+    "seed": 81201,
+    "status": "complete",
+    "solves": 65,
+    "budget": 65,
+    "raw_proposals": 113,
+    "rejected_proposals": {
+      "Squares overlap or violate inter-square clearance": 39,
+      "Thin appendage exceeds minimum-feature residual allowance": 2,
+      "Square enters the protected source collar": 2,
+      "Duplicate unordered layout": 1,
+      "Square violates exterior clearance": 5
+    },
+    "initial_Q": 1.3725368250602858,
+    "best_Q": 1.4157059772175589,
+    "final_current_Q": 1.4157059772175589,
+    "gain_percent": 3.145209029664975,
+    "elapsed_seconds": 12.950211400000626,
+    "best_holes": [
+      {
+        "row": 25,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 42,
+        "width": 8
+      }
+    ],
+    "initial_holes": [
+      {
+        "row": 29,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 54,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 76,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 60,
+        "width": 8
+      }
+    ],
+    "initial_geometry_sha256": "0e203117d9db9dfd871d55148b94e1fadb2feb8985993794bfcca264431ef182",
+    "case": "direct_B1_N6"
+  },
+  {
+    "method": "random",
+    "seed": 81202,
+    "status": "complete",
+    "solves": 65,
+    "budget": 65,
+    "raw_proposals": 64,
+    "rejected_proposals": {},
+    "initial_Q": 1.3393113426186023,
+    "best_Q": 1.3768029023532546,
+    "final_current_Q": 1.3768029023532546,
+    "gain_percent": 2.799316226303983,
+    "elapsed_seconds": 25.87984719999986,
+    "best_holes": [
+      {
+        "row": 23,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 29,
+        "col": 44,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 70,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 58,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 36,
+        "width": 8
+      }
+    ],
+    "initial_holes": [
+      {
+        "row": 33,
+        "col": 50,
+        "width": 8
+      },
+      {
+        "row": 39,
+        "col": 32,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 66,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 46,
+        "width": 8
+      },
+      {
+        "row": 61,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 42,
+        "width": 8
+      }
+    ],
+    "initial_geometry_sha256": "2a55848a970ce6e4cac1f0b90364c87f139a8051bc5bb8f4133ae88acda7b957",
+    "case": "direct_B1_N6"
+  },
+  {
+    "method": "greedy",
+    "seed": 81202,
+    "status": "complete",
+    "solves": 65,
+    "budget": 65,
+    "raw_proposals": 155,
+    "rejected_proposals": {
+      "Square violates exterior clearance": 16,
+      "Squares overlap or violate inter-square clearance": 60,
+      "Thin appendage exceeds minimum-feature residual allowance": 10,
+      "Duplicate unordered layout": 3,
+      "Square enters the protected source collar": 2
+    },
+    "initial_Q": 1.3393113426186023,
+    "best_Q": 1.4011218955587703,
+    "final_current_Q": 1.4011218955587703,
+    "gain_percent": 4.615099639141174,
+    "elapsed_seconds": 7.817566199999419,
+    "best_holes": [
+      {
+        "row": 21,
+        "col": 32,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 52,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 34,
+        "width": 8
+      }
+    ],
+    "initial_holes": [
+      {
+        "row": 33,
+        "col": 50,
+        "width": 8
+      },
+      {
+        "row": 39,
+        "col": 32,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 66,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 46,
+        "width": 8
+      },
+      {
+        "row": 61,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 42,
+        "width": 8
+      }
+    ],
+    "initial_geometry_sha256": "2a55848a970ce6e4cac1f0b90364c87f139a8051bc5bb8f4133ae88acda7b957",
+    "case": "direct_B1_N6"
+  },
+  {
+    "method": "anneal",
+    "seed": 81202,
+    "status": "complete",
+    "solves": 65,
+    "budget": 65,
+    "raw_proposals": 113,
+    "rejected_proposals": {
+      "Squares overlap or violate inter-square clearance": 24,
+      "Square violates exterior clearance": 10,
+      "Thin appendage exceeds minimum-feature residual allowance": 10,
+      "Duplicate unordered layout": 3,
+      "Minimum-feature opening core is empty or disconnected": 1,
+      "Square enters the protected source collar": 1
+    },
+    "initial_Q": 1.3393113426186023,
+    "best_Q": 1.4091078171692348,
+    "final_current_Q": 1.4091078171692348,
+    "gain_percent": 5.2113703759252505,
+    "elapsed_seconds": 7.200462499999958,
+    "best_holes": [
+      {
+        "row": 25,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 31,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 36,
+        "width": 8
+      }
+    ],
+    "initial_holes": [
+      {
+        "row": 33,
+        "col": 50,
+        "width": 8
+      },
+      {
+        "row": 39,
+        "col": 32,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 66,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 46,
+        "width": 8
+      },
+      {
+        "row": 61,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 42,
+        "width": 8
+      }
+    ],
+    "initial_geometry_sha256": "2a55848a970ce6e4cac1f0b90364c87f139a8051bc5bb8f4133ae88acda7b957",
+    "case": "direct_B1_N6"
+  },
+  {
+    "method": "random",
+    "seed": 81203,
+    "status": "complete",
+    "solves": 65,
+    "budget": 65,
+    "raw_proposals": 64,
+    "rejected_proposals": {},
+    "initial_Q": 1.320046471657709,
+    "best_Q": 1.410176352896723,
+    "final_current_Q": 1.410176352896723,
+    "gain_percent": 6.827780928487259,
+    "elapsed_seconds": 18.39968780000072,
+    "best_holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 27,
+        "col": 46,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 40,
+        "width": 8
+      }
+    ],
+    "initial_holes": [
+      {
+        "row": 21,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 27,
+        "col": 70,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 63,
+        "col": 34,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 66,
+        "width": 8
+      }
+    ],
+    "initial_geometry_sha256": "b64ba3c1e74fe23579b0d480c9fbc9d7f4a68346b537bf7288b1014061c8edff",
+    "case": "direct_B1_N6"
+  },
+  {
+    "method": "greedy",
+    "seed": 81203,
+    "status": "complete",
+    "solves": 65,
+    "budget": 65,
+    "raw_proposals": 131,
+    "rejected_proposals": {
+      "Squares overlap or violate inter-square clearance": 30,
+      "Thin appendage exceeds minimum-feature residual allowance": 14,
+      "Square enters the protected source collar": 3,
+      "Square violates exterior clearance": 17,
+      "Duplicate unordered layout": 3
+    },
+    "initial_Q": 1.320046471657709,
+    "best_Q": 1.4071724956902876,
+    "final_current_Q": 1.4071724956902876,
+    "gain_percent": 6.600223999929811,
+    "elapsed_seconds": 7.6393810999998095,
+    "best_holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 63,
+        "col": 58,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 42,
+        "width": 8
+      }
+    ],
+    "initial_holes": [
+      {
+        "row": 21,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 27,
+        "col": 70,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 63,
+        "col": 34,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 66,
+        "width": 8
+      }
+    ],
+    "initial_geometry_sha256": "b64ba3c1e74fe23579b0d480c9fbc9d7f4a68346b537bf7288b1014061c8edff",
+    "case": "direct_B1_N6"
+  },
+  {
+    "method": "anneal",
+    "seed": 81203,
+    "status": "complete",
+    "solves": 65,
+    "budget": 65,
+    "raw_proposals": 145,
+    "rejected_proposals": {
+      "Squares overlap or violate inter-square clearance": 40,
+      "Thin appendage exceeds minimum-feature residual allowance": 13,
+      "Square enters the protected source collar": 3,
+      "Square violates exterior clearance": 21,
+      "Duplicate unordered layout": 4
+    },
+    "initial_Q": 1.320046471657709,
+    "best_Q": 1.4243198609996395,
+    "final_current_Q": 1.4243198609996395,
+    "gain_percent": 7.899221094162279,
+    "elapsed_seconds": 7.685854600000312,
+    "best_holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 44,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 26,
+        "width": 8
+      }
+    ],
+    "initial_holes": [
+      {
+        "row": 21,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 27,
+        "col": 70,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 63,
+        "col": 34,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 66,
+        "width": 8
+      }
+    ],
+    "initial_geometry_sha256": "b64ba3c1e74fe23579b0d480c9fbc9d7f4a68346b537bf7288b1014061c8edff",
+    "case": "direct_B1_N6"
+  }
+]

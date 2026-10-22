@@ -1,0 +1,6 @@
+{
+  "label": "demo",
+  "seeds": [81201, 81202, 81203],
+  "solve_budget": 65,
+  "cases": [{"name": "direct_B1_N6", "source": "direct", "source_width": 0.3, "Bi": 1, "hole_count": 6}]
+}

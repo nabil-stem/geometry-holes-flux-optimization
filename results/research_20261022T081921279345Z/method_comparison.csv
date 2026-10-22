@@ -1,0 +1,4 @@
+case,method,seeds,median_fine_gain,gain_range,median_vs_named_baseline,stable_mesh_gaps,complete_budgets
+direct_B1_N6,random,3,2.827%,"[0.504, 7.082]%",-1.939%,3/3,3/3
+direct_B1_N6,greedy,3,4.898%,"[3.630, 6.817]%",0.060%,3/3,3/3
+direct_B1_N6,anneal,3,5.332%,"[3.202, 8.320]%",0.693%,3/3,3/3

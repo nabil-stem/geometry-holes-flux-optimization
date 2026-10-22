@@ -1,0 +1,13 @@
+{
+  "label": "source_permeability",
+  "seeds": [81201, 81202, 81203, 81204, 81205],
+  "solve_budget": 129,
+  "cases": [
+    {"name": "direct_B01_N6", "source": "direct", "source_width": 0.3, "Bi": 0.1, "hole_count": 6},
+    {"name": "direct_B1_N6", "source": "direct", "source_width": 0.3, "Bi": 1, "hole_count": 6},
+    {"name": "direct_B10_N6", "source": "direct", "source_width": 0.3, "Bi": 10, "hole_count": 6},
+    {"name": "neck_B01_N6", "source": "neck", "source_width": 0.1, "Bi": 0.1, "hole_count": 6},
+    {"name": "neck_B1_N6", "source": "neck", "source_width": 0.1, "Bi": 1, "hole_count": 6},
+    {"name": "neck_B10_N6", "source": "neck", "source_width": 0.1, "Bi": 10, "hole_count": 6}
+  ]
+}

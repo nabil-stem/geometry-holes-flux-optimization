@@ -1,0 +1,4 @@
+-r requirements.txt
+triangle==20250106
+pytest>=7
+ruff>=0.6

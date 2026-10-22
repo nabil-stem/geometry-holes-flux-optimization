@@ -1,0 +1,165 @@
+{
+  "solver_calls": 180,
+  "scenarios": [
+    {
+      "scenario": "original_neck_w0.10",
+      "layouts": 28,
+      "best": "random_020",
+      "worst": "random_015",
+      "reference": "spread",
+      "best_Q": 0.5151092282553928,
+      "worst_Q": 0.5085465080023162,
+      "spread_percent": 1.290485756918569,
+      "gain_over_reference_percent": 0.2602408936061229,
+      "no_holes_Q": 0.501327287399277,
+      "reflecting_selected_Q": 0.4948481660422881,
+      "obstruction_delta": -0.006479121356988915,
+      "wall_activation_delta": 0.020261062213104752,
+      "refinement": [
+        {
+          "n": 100,
+          "best_minus_worst_Q": 0.006562720253076693,
+          "best_minus_reference_Q": 0.0013370453199708088
+        },
+        {
+          "n": 200,
+          "best_minus_worst_Q": 0.006351075885163704,
+          "best_minus_reference_Q": 0.001371413209993233
+        },
+        {
+          "n": 400,
+          "best_minus_worst_Q": 0.006272387688073033,
+          "best_minus_reference_Q": 0.0013852015446773613
+        }
+      ]
+    },
+    {
+      "scenario": "direct_w0.10",
+      "layouts": 28,
+      "best": "random_020",
+      "worst": "random_015",
+      "reference": "spread",
+      "best_Q": 0.9732238175535819,
+      "worst_Q": 0.9083802534648597,
+      "spread_percent": 7.138372266612758,
+      "gain_over_reference_percent": 1.5046519396510805,
+      "no_holes_Q": 0.8363351922196226,
+      "reflecting_selected_Q": 0.7797300963002748,
+      "obstruction_delta": -0.056605095919347814,
+      "wall_activation_delta": 0.1934937212533071,
+      "refinement": [
+        {
+          "n": 100,
+          "best_minus_worst_Q": 0.06484356408872216,
+          "best_minus_reference_Q": 0.014426561510375357
+        },
+        {
+          "n": 200,
+          "best_minus_worst_Q": 0.06338348987775055,
+          "best_minus_reference_Q": 0.01510718319380866
+        },
+        {
+          "n": 400,
+          "best_minus_worst_Q": 0.06284866242536358,
+          "best_minus_reference_Q": 0.015425400193307848
+        }
+      ]
+    },
+    {
+      "scenario": "direct_w0.30",
+      "layouts": 28,
+      "best": "proximal",
+      "worst": "distal",
+      "reference": "spread",
+      "best_Q": 1.4037247415391247,
+      "worst_Q": 1.2095439597728541,
+      "spread_percent": 16.054049147807483,
+      "gain_over_reference_percent": 5.775332414959888,
+      "no_holes_Q": 1.051998474083296,
+      "reflecting_selected_Q": 0.917105910800391,
+      "obstruction_delta": -0.1348925632829049,
+      "wall_activation_delta": 0.4866188307387337,
+      "refinement": [
+        {
+          "n": 100,
+          "best_minus_worst_Q": 0.19418078176627063,
+          "best_minus_reference_Q": 0.07664336113535608
+        },
+        {
+          "n": 200,
+          "best_minus_worst_Q": 0.2007137976374198,
+          "best_minus_reference_Q": 0.08047928865124865
+        },
+        {
+          "n": 400,
+          "best_minus_worst_Q": 0.20367206050164643,
+          "best_minus_reference_Q": 0.08221816460953169
+        }
+      ]
+    },
+    {
+      "scenario": "direct_w0.50",
+      "layouts": 28,
+      "best": "proximal",
+      "worst": "distal",
+      "reference": "spread",
+      "best_Q": 1.7012355027215205,
+      "worst_Q": 1.353265479924528,
+      "spread_percent": 25.713359866121664,
+      "gain_over_reference_percent": 9.423484992264797,
+      "no_holes_Q": 1.130168798847284,
+      "reflecting_selected_Q": 1.0385148398406305,
+      "obstruction_delta": -0.09165395900665341,
+      "wall_activation_delta": 0.6627206628808899,
+      "refinement": [
+        {
+          "n": 100,
+          "best_minus_worst_Q": 0.3479700227969924,
+          "best_minus_reference_Q": 0.14650938260043156
+        },
+        {
+          "n": 200,
+          "best_minus_worst_Q": 0.3514697715582089,
+          "best_minus_reference_Q": 0.14763524157797847
+        },
+        {
+          "n": 400,
+          "best_minus_worst_Q": 0.35303386821130256,
+          "best_minus_reference_Q": 0.1481374771731616
+        }
+      ]
+    },
+    {
+      "scenario": "direct_w0.70",
+      "layouts": 28,
+      "best": "proximal",
+      "worst": "distal",
+      "reference": "spread",
+      "best_Q": 1.738494811287632,
+      "worst_Q": 1.3375986323309492,
+      "spread_percent": 29.971335890054405,
+      "gain_over_reference_percent": 10.041174225259253,
+      "no_holes_Q": 1.0821946460851097,
+      "reflecting_selected_Q": 1.0048144416509956,
+      "obstruction_delta": -0.07738020443411409,
+      "wall_activation_delta": 0.7336803696366363,
+      "refinement": [
+        {
+          "n": 100,
+          "best_minus_worst_Q": 0.4008961789566827,
+          "best_minus_reference_Q": 0.15863634146718586
+        },
+        {
+          "n": 200,
+          "best_minus_worst_Q": 0.40248518886243456,
+          "best_minus_reference_Q": 0.1592864709511852
+        },
+        {
+          "n": 400,
+          "best_minus_worst_Q": 0.4031161111143302,
+          "best_minus_reference_Q": 0.15955245528831807
+        }
+      ]
+    }
+  ]
+}

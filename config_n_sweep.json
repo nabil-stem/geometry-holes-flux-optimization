@@ -1,0 +1,11 @@
+{
+  "label": "fixed_square_size_N_sweep",
+  "seeds": [81201, 81202, 81203, 81204, 81205],
+  "solve_budget": 129,
+  "cases": [
+    {"name": "direct_B1_N2", "source_width": 0.3, "Bi": 1, "hole_count": 2},
+    {"name": "direct_B1_N4", "source_width": 0.3, "Bi": 1, "hole_count": 4},
+    {"name": "direct_B1_N6", "source_width": 0.3, "Bi": 1, "hole_count": 6},
+    {"name": "direct_B1_N8", "source_width": 0.3, "Bi": 1, "hole_count": 8}
+  ]
+}

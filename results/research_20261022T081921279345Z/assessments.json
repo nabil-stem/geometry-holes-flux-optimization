@@ -1,0 +1,425 @@
+[
+  {
+    "case": "direct_B1_N6",
+    "method": "random",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.3968420566604516,
+    "fine_initial_Q": 1.3898418944913558,
+    "fine_gain_percent": 0.5036660786267078,
+    "paired_gap_change": 0.0002920062061895212,
+    "paired_gap_change_fraction": 0.04171420591920918,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": false,
+    "field_file": "fields/direct_B1_N6_52a3c1656743a212.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 30,
+        "width": 8
+      },
+      {
+        "row": 31,
+        "col": 76,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 59,
+        "col": 52,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "direct_B1_N6",
+    "method": "greedy",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.4402883420574142,
+    "fine_initial_Q": 1.3898418944913558,
+    "fine_gain_percent": 3.62965368694117,
+    "paired_gap_change": 0.0005859320202334928,
+    "paired_gap_change_fraction": 0.011614931248949268,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/direct_B1_N6_f2210970bb8b81cb.npz",
+    "holes": [
+      {
+        "row": 27,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 29,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 50,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "direct_B1_N6",
+    "method": "anneal",
+    "seed": 81201,
+    "fine_n": 400,
+    "fine_Q": 1.4343424126885478,
+    "fine_initial_Q": 1.3898418944913558,
+    "fine_gain_percent": 3.2018403225266168,
+    "paired_gap_change": 0.0004332098115278349,
+    "paired_gap_change_fraction": 0.009734938582247124,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/direct_B1_N6_13107827be259034.npz",
+    "holes": [
+      {
+        "row": 25,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 42,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "direct_B1_N6",
+    "method": "random",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.3933875675299012,
+    "fine_initial_Q": 1.3550812827682797,
+    "fine_gain_percent": 2.8268625099275413,
+    "paired_gap_change": 0.0002741378661170746,
+    "paired_gap_change_fraction": 0.007156472307952161,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/direct_B1_N6_84aff70bd596dd75.npz",
+    "holes": [
+      {
+        "row": 23,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 29,
+        "col": 44,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 70,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 58,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 36,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "direct_B1_N6",
+    "method": "greedy",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.4214503826991576,
+    "fine_initial_Q": 1.3550812827682797,
+    "fine_gain_percent": 4.897794750385254,
+    "paired_gap_change": 0.001420727794642973,
+    "paired_gap_change_fraction": 0.021406464697014613,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/direct_B1_N6_ef02ee397d4d6ecc.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 32,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 52,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 34,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "direct_B1_N6",
+    "method": "anneal",
+    "seed": 81202,
+    "fine_n": 400,
+    "fine_Q": 1.4273322647862796,
+    "fine_initial_Q": 1.3550812827682797,
+    "fine_gain_percent": 5.3318559511352115,
+    "paired_gap_change": 0.0007790373116207672,
+    "paired_gap_change_fraction": 0.010782376790763687,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/direct_B1_N6_2fc38705fff3e75d.npz",
+    "holes": [
+      {
+        "row": 25,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 31,
+        "col": 42,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 40,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 36,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "direct_B1_N6",
+    "method": "random",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.4288491213788737,
+    "fine_initial_Q": 1.3343515544111044,
+    "fine_gain_percent": 7.081909310584522,
+    "paired_gap_change": 0.0013596328825296045,
+    "paired_gap_change_fraction": 0.014388019989904516,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/direct_B1_N6_ceae66817f7e8e01.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 27,
+        "col": 46,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 28,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 40,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "direct_B1_N6",
+    "method": "greedy",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.4253197748882065,
+    "fine_initial_Q": 1.3343515544111044,
+    "fine_gain_percent": 6.817410312625549,
+    "paired_gap_change": 0.0012103736343456184,
+    "paired_gap_change_fraction": 0.013305455773428983,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/direct_B1_N6_ece995c80b579680.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 41,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 63,
+        "col": 58,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 42,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "direct_B1_N6",
+    "method": "anneal",
+    "seed": 81203,
+    "fine_n": 400,
+    "fine_Q": 1.4453677721323905,
+    "fine_initial_Q": 1.3343515544111044,
+    "fine_gain_percent": 8.31986273439622,
+    "paired_gap_change": 0.0020920230087404512,
+    "paired_gap_change_fraction": 0.018844300874964227,
+    "positive_gain_all_meshes": true,
+    "mesh_gap_stable": true,
+    "exceeds_practical_threshold": true,
+    "field_file": "fields/direct_B1_N6_39605efcd195c313.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 44,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  }
+]

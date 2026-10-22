@@ -1,0 +1,10 @@
+origin_case,method,seed,target_case,Q,status
+direct_B1_N6,random,81201,direct_B1_N6,1.3786057478008944,evaluated
+direct_B1_N6,greedy,81201,direct_B1_N6,1.4211428312107195,evaluated
+direct_B1_N6,anneal,81201,direct_B1_N6,1.4157059772175589,evaluated
+direct_B1_N6,random,81202,direct_B1_N6,1.3768029023532546,evaluated
+direct_B1_N6,greedy,81202,direct_B1_N6,1.4011218955587703,evaluated
+direct_B1_N6,anneal,81202,direct_B1_N6,1.4091078171692348,evaluated
+direct_B1_N6,random,81203,direct_B1_N6,1.410176352896723,evaluated
+direct_B1_N6,greedy,81203,direct_B1_N6,1.4071724956902876,evaluated
+direct_B1_N6,anneal,81203,direct_B1_N6,1.4243198609996395,evaluated

@@ -1,0 +1,19 @@
+{
+  "grid_n": 100,
+  "hole_count": 6,
+  "hole_width": 0.08,
+  "gap": 0.04,
+  "Bi": 1.0,
+  "source_widths": [
+    0.1,
+    0.3,
+    0.5,
+    0.7
+  ],
+  "random_layouts": 24,
+  "seed": 410000,
+  "refinement_factors": [
+    2,
+    4
+  ]
+}

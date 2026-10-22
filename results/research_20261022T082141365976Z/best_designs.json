@@ -1,0 +1,236 @@
+[
+  {
+    "case": "direct_B01_N6",
+    "candidate": "greedy_81203",
+    "fine_Q": 0.3601580720731079,
+    "fine_n": 400,
+    "field_file": "fields/direct_B01_N6_94fed6e0204c2393.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 21,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 69,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "direct_B1_N6",
+    "candidate": "greedy_81201",
+    "fine_Q": 1.451080041858594,
+    "fine_n": 400,
+    "field_file": "fields/direct_B1_N6_e5e351223e80dc2d.npz",
+    "holes": [
+      {
+        "row": 27,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 27,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 45,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 47,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 67,
+        "col": 40,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "direct_B10_N6",
+    "candidate": "greedy_81201",
+    "fine_Q": 3.3380263738559464,
+    "fine_n": 400,
+    "field_file": "fields/direct_B10_N6_86f87c33cbc23313.npz",
+    "holes": [
+      {
+        "row": 25,
+        "col": 30,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 49,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 61,
+        "col": 24,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "neck_B01_N6",
+    "candidate": "greedy_81203",
+    "fine_Q": 0.2309182786975749,
+    "fine_n": 400,
+    "field_file": "fields/neck_B01_N6_69aedeb0c0212df3.npz",
+    "holes": [
+      {
+        "row": 21,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 23,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 34,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 46,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 48,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 24,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "neck_B1_N6",
+    "candidate": "greedy_81205",
+    "fine_Q": 0.5169781083083311,
+    "fine_n": 400,
+    "field_file": "fields/neck_B1_N6_f7996484807ea2d5.npz",
+    "holes": [
+      {
+        "row": 29,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 33,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 43,
+        "col": 50,
+        "width": 8
+      },
+      {
+        "row": 55,
+        "col": 38,
+        "width": 8
+      },
+      {
+        "row": 57,
+        "col": 26,
+        "width": 8
+      },
+      {
+        "row": 71,
+        "col": 30,
+        "width": 8
+      }
+    ]
+  },
+  {
+    "case": "neck_B10_N6",
+    "candidate": "greedy_81204",
+    "fine_Q": 1.3360110800626437,
+    "fine_n": 400,
+    "field_file": "fields/neck_B10_N6_fef0e41e2a9fbfe7.npz",
+    "holes": [
+      {
+        "row": 27,
+        "col": 24,
+        "width": 8
+      },
+      {
+        "row": 37,
+        "col": 36,
+        "width": 8
+      },
+      {
+        "row": 39,
+        "col": 22,
+        "width": 8
+      },
+      {
+        "row": 51,
+        "col": 34,
+        "width": 8
+      },
+      {
+        "row": 53,
+        "col": 22,
+        "width": 8
+      },
+      {
+        "row": 65,
+        "col": 26,
+        "width": 8
+      }
+    ]
+  }
+]

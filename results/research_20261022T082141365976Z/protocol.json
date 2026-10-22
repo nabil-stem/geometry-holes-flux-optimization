@@ -1,0 +1,77 @@
+{
+  "label": "source_permeability",
+  "grid_n": 100,
+  "hole_width": 0.08,
+  "gap": 0.04,
+  "minimum_feature_width": 0.04,
+  "position_stride": 0.02,
+  "local_step": 0.08,
+  "global_move_probability": 0.3,
+  "seeds": [
+    81201,
+    81202,
+    81203,
+    81204,
+    81205
+  ],
+  "methods": [
+    "random",
+    "greedy",
+    "anneal"
+  ],
+  "solve_budget": 129,
+  "max_proposals": 20000,
+  "temperature_start": 0.02,
+  "temperature_end": 0.0002,
+  "refinement_factors": [
+    2,
+    4
+  ],
+  "fem_max_areas": [],
+  "practical_gain_percent": 1.0,
+  "gap_change_fraction": 0.1,
+  "cases": [
+    {
+      "name": "direct_B01_N6",
+      "hole_count": 6,
+      "Bi": 0.1,
+      "source": "direct",
+      "source_width": 0.3
+    },
+    {
+      "name": "direct_B1_N6",
+      "hole_count": 6,
+      "Bi": 1.0,
+      "source": "direct",
+      "source_width": 0.3
+    },
+    {
+      "name": "direct_B10_N6",
+      "hole_count": 6,
+      "Bi": 10.0,
+      "source": "direct",
+      "source_width": 0.3
+    },
+    {
+      "name": "neck_B01_N6",
+      "hole_count": 6,
+      "Bi": 0.1,
+      "source": "neck",
+      "source_width": 0.1
+    },
+    {
+      "name": "neck_B1_N6",
+      "hole_count": 6,
+      "Bi": 1.0,
+      "source": "neck",
+      "source_width": 0.1
+    },
+    {
+      "name": "neck_B10_N6",
+      "hole_count": 6,
+      "Bi": 10.0,
+      "source": "neck",
+      "source_width": 0.1
+    }
+  ]
+}

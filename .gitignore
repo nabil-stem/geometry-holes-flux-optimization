@@ -1,0 +1,20 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Ignore bulky binary field dumps, per-step JSONL logs, per-task folders (already aggregated in run_summaries.json), and duplicate code snapshots inside results
+results/**/*.npz
+results/**/*.jsonl
+results/**/tasks/
+results/**/source_reference/
+results/**/source_experiment/
+results/**/study_executed.py
+
+# Ignore intermediate / check-only / duplicate pilot & demo runs
+results/20261022T071349191361Z/
+results/20261022T071351894562Z/
+results/research_20261022T081420141888Z/
+results/research_20261022T081435800319Z/
+results/research_20261022T081912031578Z/
